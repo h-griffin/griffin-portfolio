@@ -8,3 +8,5 @@
 
 ## css modules
 > $ npm run eject
+> y
+

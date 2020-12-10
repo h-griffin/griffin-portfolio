@@ -1,0 +1,29 @@
+/* .Body {
+    /* background-image: url("../../images/overlay.png"), url("../../images/blue-green-gradient.png"); */
+    /* background-repeat: repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-attachment: fixed;
+    overflow-y: scroll; */
+
+    /* width: 100px;
+    color: red;
+    border: thin black solid;
+    background-image: url("../../images/blue-green-gradient.png");
+  } */ */
+
+/* h1{
+    color: red;
+    border: thin black solid;
+} */
+
+.Body{
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    color: red; 
+}

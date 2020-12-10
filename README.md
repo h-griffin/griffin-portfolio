@@ -6,3 +6,5 @@
 > $ cd griffin-portfolio npm run dev
 
 
+## css modules
+> $ npm run eject

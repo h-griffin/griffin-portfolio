@@ -10,3 +10,8 @@
 > $ npm run eject
 > y
 
+acivate css modules
+
+
+
+![whiteboard](images/whiteboard.png)

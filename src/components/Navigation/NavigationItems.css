@@ -1,6 +1,6 @@
 
 /* mobile */
-/* .NavigationItems{
+.NavigationItems{
     margin: 0;
     padding:0;
     list-style: none;
@@ -8,11 +8,11 @@
     align-items: center;
     height: 100%;
     flex-flow: column;
-} */
+}
 
 /* desktop */
-@media(min-width: 500px){
+/* @media(min-width: 500px){
     .NavigationItems{
         flex-flow: row;
     }
-}
+} */

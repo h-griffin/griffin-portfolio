@@ -1,4 +1,7 @@
 
+
+
+
 /* mobile */
 .NavigationItem {
     margin: 10px 0;
@@ -22,7 +25,7 @@
 }
 
 /* desktop */
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
     .NavigationItem {
         margin: 0;
         display: flex;
@@ -45,4 +48,4 @@
         border-bottom: 4px solid #40A4C8;
         color: white;
     }
-}
+} */

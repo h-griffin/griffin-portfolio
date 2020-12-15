@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
 
 import Aux from '../../hoc/Aux/Aux';
-import classes from './Body.css';
+import classes from './Display.css';
 
-class Body extends Component{
+class Display extends Component{
 
     render(){
         return(
             <Aux>
-                <div className={classes.Body}>
-                    <h1>body.js</h1>
+                <div className={classes.Display}>
+                    <h1>Display.js</h1>
                 </div>
             </Aux>
         )
     }
 } 
 
-export default Body;
+export default Display;

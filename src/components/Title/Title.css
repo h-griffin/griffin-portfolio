@@ -1,0 +1,10 @@
+.Title {
+
+    text-align: center;
+    border: thin black solid;
+    background-color: grey;
+
+    /* padding-bottom: 5%; */
+    width: 80%;
+
+  } 

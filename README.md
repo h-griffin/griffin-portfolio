@@ -20,3 +20,8 @@ npm i -D babel-loader babel-core babel-preset-env
 npm i -D css-loader style-loader
 
 ![whiteboard](images/whiteboard.png)
+
+layout blocks
+color
+style
+grid layouts

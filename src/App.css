@@ -3,8 +3,8 @@
 .AppStyle {
     text-align: center;
 
-    /* background-image: url("../src/images/blue-green-gradient.png"); */
-    background-image: url("../src/images/overlay.png"), url("../src/images/blue-green-gradient.png");
+    background-image: url("../src/images/blue-green-gradient.png");
+    /* background-image: url("../src/images/overlay.png"), url("../src/images/blue-green-gradient.png"); */
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% 100%;
     background-attachment: fixed;

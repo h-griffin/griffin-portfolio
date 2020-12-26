@@ -13,6 +13,8 @@
 
   .Body {
 
+    background-image: url("../../images/blue-green-gradient.png");
+
     text-align: center;
     border: thin black solid;
     background-color: grey;

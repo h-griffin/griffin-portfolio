@@ -1,8 +1,8 @@
-.Display {
+.DisplayItem {
 
     text-align: center;
     border: thin black solid;
-    background-color: white;
+    background-color: darkgrey;
 
     width: 80%;
     

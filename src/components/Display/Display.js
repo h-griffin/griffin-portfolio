@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import Aux from '../../hoc/Aux/Aux';
 import classes from './Display.css';
 
+import DisplayItem from '../Display/DisplayItem/DisplayItem';
+
 class Display extends Component{
 
     render(){
@@ -10,6 +12,9 @@ class Display extends Component{
             <Aux>
                 <div className={classes.Display}>
                     <h1>Display.js</h1>
+                    <DisplayItem>DisplayItem PROPS.CHILDREN</DisplayItem>
+                    <DisplayItem>DisplayItem PROPS.CHILDREN</DisplayItem>
+                    <DisplayItem>DisplayItem PROPS.CHILDREN</DisplayItem>
                 </div>
             </Aux>
         )

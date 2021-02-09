@@ -15,6 +15,10 @@ class Display extends Component{
                     <DisplayItem>DisplayItem description</DisplayItem>
                     <DisplayItem>DisplayItem description</DisplayItem>
                     <DisplayItem>DisplayItem description</DisplayItem>
+
+                    <DisplayItem>DisplayItem description</DisplayItem>
+                    <DisplayItem>DisplayItem description</DisplayItem>
+                    <DisplayItem>DisplayItem description</DisplayItem>
                 </div>
             </Aux>
         )

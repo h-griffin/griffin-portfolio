@@ -2,8 +2,10 @@
 
     text-align: center;
     border: thin black solid;
-    background-color: lightgrey;
+    background-color: white;
 
-    width: 80%;
+    width: 95%;
+    padding-bottom: 3%;
+    margin: auto;
     
 } 

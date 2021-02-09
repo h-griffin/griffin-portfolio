@@ -11,7 +11,7 @@ class Body extends Component{
         return(
             <Aux>
                 <div className={classes.Body}>
-                    <h1>body.js</h1>
+                    <h1>Body.js</h1>
                     <Header />
                     <Display />
                     

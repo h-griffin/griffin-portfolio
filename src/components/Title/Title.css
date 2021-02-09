@@ -2,12 +2,10 @@
 
     text-align: center;
     border: thin black solid;
-    background-color: grey;
+    background-color: darkgrey;
 
     /* padding-bottom: 5%; */
-    width: 80%;
-
-    /* position: 'absolute', 50% ,50%;
-    transform: 'translate(-50%, -50%)' */
+    width: 95%;
+    margin: auto;
 
 } 

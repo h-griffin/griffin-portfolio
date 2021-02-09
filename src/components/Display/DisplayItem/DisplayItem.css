@@ -8,7 +8,8 @@
     display: inline-block;
 
     margin-right: 15%;
-    margin: auto;
+    margin: auto 1% 2% auto;
+
     overflow: hidden;
 } 
 
@@ -21,4 +22,3 @@
     overflow: auto; 
   } */
 
-  

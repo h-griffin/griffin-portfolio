@@ -12,13 +12,13 @@ class Display extends Component{
             <Aux>
                 <div className={classes.Display}>
                     <h1>Display.js</h1>
-                    <DisplayItem>DisplayItem description</DisplayItem>
-                    <DisplayItem>DisplayItem description</DisplayItem>
-                    <DisplayItem>DisplayItem description</DisplayItem>
+                    <DisplayItem>DisplayItem child</DisplayItem>
+                    <DisplayItem>DisplayItem child</DisplayItem>
+                    <DisplayItem>DisplayItem child</DisplayItem>
 
-                    <DisplayItem>DisplayItem description</DisplayItem>
-                    <DisplayItem>DisplayItem description</DisplayItem>
-                    <DisplayItem>DisplayItem description</DisplayItem>
+                    <DisplayItem>DisplayItem child</DisplayItem>
+                    <DisplayItem>DisplayItem child</DisplayItem>
+                    <DisplayItem>DisplayItem child</DisplayItem>
                 </div>
             </Aux>
         )

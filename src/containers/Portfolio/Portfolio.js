@@ -12,6 +12,9 @@ class Portfolio extends Component{
 
         return (
             <Aux className={classes.Portfolio}>
+                <head>
+                    <link href="../../css/css/all.css" rel="stylesheet"></link>
+                </head>
                 <NavigationItems />
                 <Body />
             </Aux>  

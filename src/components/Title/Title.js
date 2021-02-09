@@ -9,7 +9,7 @@ class Title extends Component{
         return(
             <Aux>
                 <div className={classes.Title}>
-                    <h1>Title.js</h1>
+                    <h3>Title.js</h3>
                 </div>
             </Aux>
         )

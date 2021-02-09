@@ -4,6 +4,20 @@
     border: thin black solid;
     background-color: darkgrey;
 
-    width: 80%;
-    
+    width: 30%;
+    display: inline-block;
+
+    /* width: 95%; */
+    padding-bottom: 3%;
+    margin: auto;
+    overflow: hidden;
 } 
+
+.DisplayImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+    overflow: auto; /*size image to container*/
+  }

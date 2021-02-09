@@ -15,7 +15,9 @@
     text-align: center;
     border: thin black solid;
     padding-bottom: 5%;
-    width: 80%;
     background-color: lightgray;
+    width: 90%;
+    padding-bottom: 3%;
+    margin: auto;
   } 
 

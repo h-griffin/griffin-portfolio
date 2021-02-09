@@ -1,18 +1,19 @@
 
 /* mobile */
-/* .NavigationItems{
+.NavigationItems{
     margin: 0;
     padding:0;
     list-style: none;
     display: flex;
     align-items: center;
     height: 100%;
-    flex-flow: column;
-} */
+    flex-flow: row;
+    /* position: relative; */
+}
 
 /* desktop */
-@media(min-width: 500px){
+/* @media(min-width: 500px){
     .NavigationItems{
         flex-flow: row;
     }
-}
+} */

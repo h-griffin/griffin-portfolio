@@ -18,6 +18,18 @@
     background-color: lightgray;
     width: 90%;
     padding-bottom: 3%;
-    margin: auto;
+    margin: auto auto 5% auto  ;
   } 
 
+  @media screen and (min-width: 1024px){
+    .Body {
+        text-align: center;
+        border: thin black solid;
+        padding-bottom: 5%;
+        background-color: lightgray;
+        width: 60%;
+        padding-bottom: 3%;
+        margin: auto auto 5% auto ;
+      } 
+    
+  }

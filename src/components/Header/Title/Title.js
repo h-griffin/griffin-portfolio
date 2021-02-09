@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Aux from '../../hoc/Aux/Aux';
+import Aux from '../../../hoc/Aux/Aux';
 import classes from './Title.css';
 
 class Title extends Component{
@@ -9,7 +9,7 @@ class Title extends Component{
         return(
             <Aux>
                 <div className={classes.Title}>
-                    <h3>Title.js</h3>
+                    <h3>{this.props.children}</h3>
                 </div>
             </Aux>
         )

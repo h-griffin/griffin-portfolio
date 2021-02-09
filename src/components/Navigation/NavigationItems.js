@@ -8,13 +8,15 @@ import Aux from '../../hoc/Aux/Aux';
 const NavigationItems = () => (
     <ul className={classes.NavigationItems}>
         <NavigationItem link='/' active >Home</NavigationItem>
-        <NavigationItem link='/'>Code</NavigationItem>
-        <NavigationItem link='/'>Certificates</NavigationItem>
-        <NavigationItem link='/'>Art</NavigationItem>
-        <NavigationItem link='/'>Contact</NavigationItem>
+        <NavigationItem link='/code'>Code</NavigationItem>
+        <NavigationItem link='/certificates'>Certificates</NavigationItem>
+        <NavigationItem link='/art'>Art</NavigationItem>
+        <NavigationItem link='/contact'>Contact</NavigationItem>
     </ul>
 
-        // <Aux>
+
+
+// <Aux>
         //     <head>
         //         <link href="../../css/css/all.css" rel="stylesheet"></link>
         //     </head>

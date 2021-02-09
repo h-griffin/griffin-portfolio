@@ -6,11 +6,9 @@
     background-color: white;
 
     width: 95%;
-    height: 70%;
+    /* height: 70%; */
     padding-bottom: 3%;
-    /* margin: auto; */
-    margin: auto auto 2% auto;
-
+    margin: auto;
     position: relative;
 } 
 

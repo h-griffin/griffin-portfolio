@@ -1,12 +1,13 @@
 
 /* mobile */
 .NavigationItems{
-    margin: 0;
+    margin: 4% auto 1% auto;
     padding:0;
     list-style: none;
     display: flex;
     align-items: center;
     height: 100%;
+    width: 60%;
     flex-flow: row;
     /* position: relative; */
 }

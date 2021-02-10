@@ -10,14 +10,24 @@
 .NavigationItem a {
     color: white;
     height: 100%;
-    padding: 16px 10px;
+    padding: 0px 10px 40px 10px;
     border-bottom: 4px solid transparent;
 }
 
-.NavigationItem a:hover,
+
+.NavigationItem a:hover{
+    color: red;
+}
 .NavigationItem a:active,
 .NavigationItem a.active {
-    background-color: lightgrey;
-    border-bottom: 4px solid #40A4C8;
-    color: white;
+   
+    /* border-bottom: solid 1em #ffffff;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em transparent; */
+
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid red;
 }

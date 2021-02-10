@@ -15,23 +15,6 @@ const NavigationItems = () => (
     </ul>
 
 
-
-// <Aux>
-        //     <head>
-        //         <link href="../../css/css/all.css" rel="stylesheet"></link>
-        //     </head>
-        //     <nav id="nav">
-        //         <div>
-        //             <a href="#" class="icon solid fa-home"><span>Home</span></a>
-        //             <a href="#work" class="icon solid fa-code"><span>Code</span></a>
-        //             <a href="#certificates" class="icon solid fa-certificate"><span>Certficates</span></a>
-        //             <a href="#art" class="icon solid fa-palette"><span>Art</span></a>
-        //             <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a> 
-        //         </div>
-        //     </nav>  
-        // </Aux>
-
-
 );
 
 export default NavigationItems;

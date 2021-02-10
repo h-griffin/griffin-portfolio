@@ -18,9 +18,11 @@
 #octo{
     height: 20%;
     border: 1px solid black;
+    display: inline-block;
 }
 
 #dogs{
     height: 20%;
     border: 1px solid black;
+    display: inline-block;
 }

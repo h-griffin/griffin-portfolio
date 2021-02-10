@@ -5,29 +5,29 @@
     height: 100%;
     width: auto;
     align-items: center;
-}
 
+}
 .NavigationItem a {
     color: white;
     height: 100%;
-    padding: 0px 10px 40px 10px;
+    padding: 0px 0px 40px 0px;
     border-bottom: 4px solid transparent;
+
+    display: flex;
+    flex: column;
+    justify-content: center;
+
 }
 
-
-.NavigationItem a:hover{
-    color: red;
-}
+.NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-   
-    /* border-bottom: solid 1em #ffffff;
-    border-left: solid 0.5em transparent;
-    border-right: solid 0.5em transparent; */
-
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 25px solid red;
+    border-bottom: 25px solid white;
+
+    /* color: red; */
+    
 }

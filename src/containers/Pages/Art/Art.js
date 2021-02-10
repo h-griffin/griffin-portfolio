@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Art.css';
 import Header from '../../../components/Header/Header';
-import Display from '../../../components/Display/Display';
 import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
 
 import toxic from '../../../images/art/atoxicsoul.png';

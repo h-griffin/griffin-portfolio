@@ -5,19 +5,29 @@
     height: 100%;
     width: auto;
     align-items: center;
-}
 
+}
 .NavigationItem a {
     color: white;
     height: 100%;
-    padding: 16px 10px;
+    padding: 0px 0px 40px 0px;
     border-bottom: 4px solid transparent;
+
+    display: flex;
+    flex: column;
+    justify-content: center;
+
 }
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    background-color: lightgrey;
-    border-bottom: 4px solid #40A4C8;
-    color: white;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid white;
+
+    /* color: red; */
+    
 }

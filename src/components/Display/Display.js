@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 import Aux from '../../hoc/Aux/Aux';
 import classes from './Display.css';
 
-import DisplayItem from '../Display/DisplayItem/DisplayItem';
 
 class Display extends Component{
 

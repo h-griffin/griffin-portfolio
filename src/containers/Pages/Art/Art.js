@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Art.css';
 import Header from '../../../components/Header/Header';
-import Display from '../../../components/Display/Display';
 import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
 
 import toxic from '../../../images/art/atoxicsoul.png';
@@ -27,48 +26,44 @@ class Art extends Component{
     render(){
         return(
             <Aux>
+                <Header title="Traditional & Digital commission artwork">Commissions</Header>
                 <div className={classes.Art}>
-                    <Header title="Traditional & Digital commission artwork">Commissions</Header>
                         
                         <DisplayItem 
-                            link="/"
-                            icon={toxic}
-                            text="toxic png"
-                        
-                            ></DisplayItem>
-
-                        <DisplayItem 
-                            link="/"
-                            icon={bryce}
-                            text="bryce png"
-                        
-                            ></DisplayItem>
-
-                        <DisplayItem 
-                            link="/"
-                            icon={haaken}
-                            text="haaken png"
-                        
-                            ></DisplayItem> 
+                        link="/"
+                        icon={toxic}
+                        text="toxic png"
                     
+                        ></DisplayItem> 
                     
-                    <div id='cats'>
-                        <DisplayItem 
-                            link="/"
-                            icon={luna}
-                            text="luna png"
-                        
-                            ></DisplayItem>
+                    <DisplayItem 
+                        link="/"
+                        icon={bryce}
+                        text="bryce png"
+                    
+                        ></DisplayItem>
 
+                    <DisplayItem 
+                        link="/"
+                        icon={haaken}
+                        text="haaken png"
+                    
+                        ></DisplayItem> 
+                
+                    <DisplayItem 
+                        link="/"
+                        icon={luna}
+                        text="luna png"
+                    
+                        ></DisplayItem>
+                    
                         <DisplayItem 
                             link="/"
                             icon={tiger}
                             text="tiger png"
                         
-                            ></DisplayItem> 
-                    </div>
-
-                    <div id='portraits'>
+                        ></DisplayItem> 
+                        
                     <DisplayItem 
                             link="/"
                             icon={mcgregor}
@@ -82,39 +77,33 @@ class Art extends Component{
                             text="bryce png"
                         
                             ></DisplayItem>
-
                         <DisplayItem 
                             link="/"
                             icon={elvis}
                             text="haaken png"
                         
                             ></DisplayItem> 
-                    </div>
 
-                    <div id='octo'>
                     <DisplayItem 
                             link="/"
                             icon={octo}
                             text="haaken png"
                         
                             ></DisplayItem> 
-                    </div>
 
-                    <div id='dogs'>
                         <DisplayItem 
                             link="/"
                             icon={dog}
                             text="haaken png"
                         
                             ></DisplayItem>
+
                         <DisplayItem 
                             link="/"
                             icon={soldier}
                             text="haaken png"
                         
                             ></DisplayItem>
-                    </div>
-
                 </div>
             </Aux>
         )

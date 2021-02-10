@@ -1,12 +1,6 @@
 .Portfolio {
-    /* background-image: url("../../images/overlay.png"), url("../../images/blue-green-gradient.png"); */
-    background-image: url("../../images/blue-green-gradient.png");
-    background-repeat: repeat, no-repeat;
-    background-size: auto, 100% 100%;
-    background-attachment: fixed;
-    overflow-y: scroll; 
 
     text-align: center;
-    border: thin black solid;
+    /* border: thin black solid; */
 
   } 

@@ -9,8 +9,16 @@ class DisplayItem extends Component{
         return(
             <Aux>
                 <div className={classes.DisplayItem}>
-                    <h1>DisplayItem.js</h1>
+
+                    <a href={this.props.link}>
+                        <img 
+                            className={classes.DisplayImage}
+                            src={this.props.icon}
+                            alt={this.props.text}
+                        ></img>
+                    </a>
                     {this.props.children}
+
                 </div>
             </Aux>
         )

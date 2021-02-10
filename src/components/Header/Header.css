@@ -1,16 +1,18 @@
-.Header {
 
+
+.Header {
     text-align: center;
-    border: thin black solid;
+    /* border: thin black solid; */
     background-color: white;
 
     width: 95%;
+    /* height: 70%; */
     padding-bottom: 3%;
-    /* margin: auto; */
-    margin: auto auto 2% auto;
-
+    padding-top: 3%;
+    margin: auto;
     position: relative;
 } 
+
 
 /* center text */
 /* .Header p {
@@ -20,3 +22,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
   } */
+
+

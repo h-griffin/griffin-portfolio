@@ -22,8 +22,4 @@ acivate css modules
 
 ![whiteboard](images/whiteboard.png)
 
-layout blocks
-color
-style
-grid layouts
-
+React-router & React-router-dom 

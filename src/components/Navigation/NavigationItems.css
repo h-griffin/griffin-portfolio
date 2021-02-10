@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    width: 60%;
+    width: 40%;
     flex-flow: row;
     /* position: relative; */
 }

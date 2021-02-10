@@ -16,7 +16,7 @@ class Body extends Component{
         return(
             <Aux>
                 <div className={classes.Body}>
-                    <p>∆ Body.js  ∆</p>
+                    {/* <p>∆ Body.js  ∆</p> */}
                     
                     <Route path="/" exact component={ Home } />
 

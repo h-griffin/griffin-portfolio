@@ -1,6 +1,26 @@
 .Art {
 
     text-align: center;
-    border: thin black solid;
+    /* border: thin black solid; */
 
   } 
+
+#cats{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#portraits{
+    width: 30%;
+    border: 1px solid black;
+}
+
+#octo{
+    height: 20%;
+    border: 1px solid black;
+}
+
+#dogs{
+    height: 20%;
+    border: 1px solid black;
+}

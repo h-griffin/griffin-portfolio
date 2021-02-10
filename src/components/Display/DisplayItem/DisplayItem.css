@@ -1,8 +1,7 @@
 .DisplayItem {
 
     text-align: center;
-    border: thin black solid;
-    background-color: darkgrey;
+    /* border: thin black solid; */
 
     width: 30%;
     display: inline-block;
@@ -11,14 +10,16 @@
     margin: auto 1% 2% auto;
 
     overflow: hidden;
+
 } 
 
-/* .DisplayImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+.DisplayImage {
 
-    overflow: auto; 
-  } */
+    width: 100%;
+
+    border: 1PX SOLID #eee;
+    box-shadow:  0 1px 1pc #ccc;
+    padding: 1px;
+
+  }
 

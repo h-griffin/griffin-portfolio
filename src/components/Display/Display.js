@@ -11,14 +11,7 @@ class Display extends Component{
         return(
             <Aux>
                 <div className={classes.Display}>
-                    {/* <h1>Display.js</h1> */}
-                    <DisplayItem>DisplayItem child</DisplayItem>
-                    <DisplayItem>DisplayItem child</DisplayItem>
-                    <DisplayItem>DisplayItem child</DisplayItem>
-
-                    <DisplayItem>DisplayItem child</DisplayItem>
-                    <DisplayItem>DisplayItem child</DisplayItem>
-                    <DisplayItem>DisplayItem child</DisplayItem>
+                    {this.props.children}
                 </div>
             </Aux>
         )

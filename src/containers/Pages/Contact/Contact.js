@@ -11,10 +11,8 @@ class Contact extends Component{
         return(
             <Aux>
                 <div className={classes.Contact}>
-                    {/* <p>Contact.js</p> */}
                     
-                    <Header title="Contact title">Contact Header</Header>
-                    <Display />
+                    <Header title="Contact Me">Contact Me</Header>
                     
                 </div>
             </Aux>

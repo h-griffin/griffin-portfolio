@@ -12,8 +12,33 @@ class Contact extends Component{
             <Aux>
                 <div className={classes.Contact}>
                     
-                    <Header title="Contact Me">Contact Me</Header>
+                    <Header title="Contact Me"> icons </Header>
                     
+
+
+                    <form action="mailto:haleygriffin708@gmail.com" method="GET" target="_blank">
+                        <div>
+                            <div class="row">
+                                <div class="col-6 col-12-medium">
+                                    <input type="text" name="name" placeholder="Name" />
+                                </div>
+                                <div class="col-6 col-12-medium">
+                                    <input type="text" name="email" placeholder="Email" />
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="subject" placeholder="Subject" />
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" placeholder="Message" rows="6"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <input type="submit" value="Send Message" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
                 </div>
             </Aux>
         )

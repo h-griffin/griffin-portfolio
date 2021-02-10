@@ -18,7 +18,13 @@
     background-color: white;
     width: 90%;
     padding-bottom: 3%;
-    margin: auto auto 5% auto  ;
+    margin: auto auto 5% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 1000;
+    color: #333333;
+    font-size: 20pt;
+    line-height: 1.75em;
+    
   } 
 
   @media screen and (min-width: 1024px){

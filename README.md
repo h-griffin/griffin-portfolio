@@ -23,3 +23,11 @@ acivate css modules
 ![whiteboard](images/whiteboard.png)
 
 React-router & React-router-dom 
+
+todo
+
+icons 
+email field
+description boxes
+display items
+rpg page

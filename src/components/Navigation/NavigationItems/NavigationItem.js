@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './NavigationItem.css';
 import { NavLink } from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 const NavigationItem = (props) => (
     <li className={classes.NavigationItem}>
@@ -9,8 +10,8 @@ const NavigationItem = (props) => (
         <NavLink 
             to={props.link} 
             exact 
-            activeClassName="active"
-            className={ props.active ? classes.active : null}
+            activeClassName={classes.active}
+            // className={ props.active ? classes.active : null}
             >{props.children}
         </NavLink>
 
@@ -22,4 +23,4 @@ const NavigationItem = (props) => (
     </li>
 );
 
-export default NavigationItem;
+export default withRouter(NavigationItem);

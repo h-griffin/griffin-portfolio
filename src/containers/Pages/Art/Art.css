@@ -5,3 +5,21 @@
 
   } 
 
+.Cats {
+    width: 100%;
+} 
+
+.OctoDog {
+    width: 100%;
+    display: inline-block;
+} 
+
+.Octo {
+    width: 50%;
+    float: left;
+} 
+
+.Dogs {
+    width: 100%;
+    float: right;
+} 

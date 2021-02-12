@@ -5,6 +5,12 @@ import classes from './Contact.css';
 import Header from '../../../components/Header/Header';
 import Display from '../../../components/Display/Display';
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faSlack } from '@fortawesome/free-brands-svg-icons'
+
 class Contact extends Component{
 
     render(){
@@ -12,7 +18,11 @@ class Contact extends Component{
             <Aux>
                 <div className={classes.Contact}>
                     
-                    <Header title="Contact Me"> icons </Header>
+                    <Header title="Contact Me"> 
+                        <FontAwesomeIcon icon={faGithub} size="lg"/> 
+                        <FontAwesomeIcon icon={faLinkedin} size="lg"/> 
+                        <FontAwesomeIcon icon={faSlack} size="lg"/> 
+                    </Header>
                     
 
 

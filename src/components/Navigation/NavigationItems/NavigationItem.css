@@ -5,6 +5,7 @@
     height: 100%;
     width: auto;
     align-items: center;
+    
 
 }
 .NavigationItem a {
@@ -19,7 +20,9 @@
 
 }
 
-.NavigationItem a:hover,
+.NavigationItem a:hover{
+    padding: 0px 0px 40px 0px;
+}
 .NavigationItem a:active,
 .NavigationItem a.active {
     width: 0;
@@ -27,6 +30,8 @@
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-bottom: 25px solid white;
+    
+    transition: border-bottom-width .25s ease-in-out;
 
     /* color: red; */
     

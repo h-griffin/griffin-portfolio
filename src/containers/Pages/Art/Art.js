@@ -29,7 +29,7 @@ class Art extends Component{
                 <Header title="Traditional & Digital commission artwork">Commissions</Header>
                 <div className={classes.Art}>
                         
-                        <DisplayItem 
+                    <DisplayItem 
                         link="/"
                         icon={toxic}
                         text="toxic png"
@@ -50,60 +50,73 @@ class Art extends Component{
                     
                         ></DisplayItem> 
                 
-                    <DisplayItem 
-                        link="/"
-                        icon={luna}
-                        text="luna png"
-                    
-                        ></DisplayItem>
-                    
+                    <div className={classes.Cats}>
                         <DisplayItem 
+                            style={{width: "90%"}}
+                            link="/"
+                            icon={luna}
+                            text="luna png"
+                        
+                            ></DisplayItem>
+                        
+                        <DisplayItem 
+                            style={{width: "90%"}}
                             link="/"
                             icon={tiger}
                             text="tiger png"
                         
-                        ></DisplayItem> 
-                        
-                    <DisplayItem 
-                            link="/"
-                            icon={mcgregor}
-                            text="toxic png"
-                        
-                            ></DisplayItem>
-
-                        <DisplayItem 
-                            link="/"
-                            icon={frank}
-                            text="bryce png"
-                        
-                            ></DisplayItem>
-                        <DisplayItem 
-                            link="/"
-                            icon={elvis}
-                            text="haaken png"
-                        
                             ></DisplayItem> 
+                    </div>
+                    
+                        
+                    <DisplayItem 
+                        link="/"
+                        icon={mcgregor}
+                        text="mcgregor png"
+                    
+                        ></DisplayItem>
 
                     <DisplayItem 
+                        link="/"
+                        icon={frank}
+                        text="frank png"
+                    
+                        ></DisplayItem>
+
+                    <DisplayItem 
+                        link="/"
+                        icon={elvis}
+                        text="elvis png"
+                    
+                        ></DisplayItem> 
+
+                    <div className={classes.OctoDog}>
+                        <DisplayItem 
+                            className={classes.Octo}
                             link="/"
                             icon={octo}
-                            text="haaken png"
+                            text="octo png"
                         
-                            ></DisplayItem> 
+                                ></DisplayItem>
 
-                        <DisplayItem 
-                            link="/"
-                            icon={dog}
-                            text="haaken png"
-                        
-                            ></DisplayItem>
+                        <div className={classes.Dogs}>
+                            <DisplayItem 
+                                link="/"
+                                icon={dog}
+                                text="dog png"
+                            
+                                ></DisplayItem>
 
-                        <DisplayItem 
-                            link="/"
-                            icon={soldier}
-                            text="haaken png"
-                        
-                            ></DisplayItem>
+                            <DisplayItem 
+                                link="/"
+                                icon={soldier}
+                                text="soldier png"
+                            
+                                ></DisplayItem> 
+                        </div>
+                    
+                    </div>
+                    
                 </div>
             </Aux>
         )

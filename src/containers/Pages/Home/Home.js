@@ -13,9 +13,13 @@ class Home extends Component{
         return(
             <Aux>
                 <div className={classes.Home}>
-                    <Header title="Software Developer">Haley Griffin</Header>
+                    <Header 
+                        title="Software Developer"
+                        >Haley Griffin</Header>
                     
-                    <img src={griffin} alt='griffin'></img>
+                    <img 
+                        src={griffin} 
+                        alt='griffin'></img>
                 </div>
             </Aux>
         )

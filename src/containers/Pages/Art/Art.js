@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'styled-css-grid';
 
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Art.css';
@@ -8,20 +9,15 @@ import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
 import toxic from '../../../images/art/atoxicsoul.png';
 import bryce from '../../../images/art/equiptmunk.png';
 import haaken from '../../../images/art/phokusme.png';
-
 import tiger from '../../../images/art/tiger.png';
 import luna from '../../../images/art/luna.png';
 import deer from '../../../images/art/deer.png';
-
 import mcgregor from '../../../images/art/mcgregor.png';
 import frank from '../../../images/art/frankiero.png';
 import elvis from '../../../images/art/elvis.png';
-
 import octo from '../../../images/art/octo.png';
 import dog from '../../../images/art/dog.png';
 import soldier from '../../../images/art/soldier.png';
-
-import { Grid, Cell } from 'styled-css-grid';
 
 class Art extends Component{
 
@@ -33,7 +29,8 @@ class Art extends Component{
                 <div className={classes.Art}>
                     <Grid 
                         className={classes.DisplayParent}
-                        flow="row dense" columns={9}>
+                        flow="row dense" 
+                        columns={9}>
 
                         <Cell width={3} height={2}>
                             <DisplayItem 
@@ -44,20 +41,22 @@ class Art extends Component{
                         </Cell>
                         
                         <Cell width={3} height={2}>
-                        <DisplayItem 
-                                link="/"
-                                icon={haaken}
-                                text="haaken png"
+                            <DisplayItem 
+                                    link="/"
+                                    icon={haaken}
+                                    text="haaken png"
                             ></DisplayItem> 
                         </Cell>
 
                         <Cell width={3} height={2} >
-                        <DisplayItem 
-                                link="/"
-                                icon={toxic}
-                                text="toxic png"
+                            <DisplayItem 
+                                    link="/"
+                                    icon={toxic}
+                                    text="toxic png"
                             ></DisplayItem>  
                         </Cell>
+
+
 
                         <Cell width={5} height={4} >
                             <DisplayItem 
@@ -83,6 +82,8 @@ class Art extends Component{
                             ></DisplayItem> 
                         </Cell>
 
+
+
                         <Cell width={3} height={2}>
                             <DisplayItem 
                                 link="/"
@@ -100,7 +101,7 @@ class Art extends Component{
                         </Cell>
 
                         <Cell width={3} height={2}>
-                        <DisplayItem 
+                            <DisplayItem 
                                 link="/"
                                 icon={elvis}
                                 text="elvis png"
@@ -108,6 +109,7 @@ class Art extends Component{
                         </Cell>
                         
 
+                        
                         <Cell width={5} height={6}>
                             <DisplayItem 
                                 link="/"

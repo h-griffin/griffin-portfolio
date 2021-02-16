@@ -6,7 +6,7 @@
 > $ cd griffin-portfolio npm run dev
 ```
 
-## css modules
+#### css modules
 > $ npm run eject
 > y
 
@@ -20,27 +20,32 @@ acivate css modules
 > $ npm i -D css-loader style-loader
 ```
 
+#### fa icons (nav/contact)
+```
+> $ npm i --save @fortawesome/fontawesome-svg-core
+> $ npm install --save @fortawesome/free-solid-svg-icons
+> $ npm install --save @fortawesome/react-fontawesome
+> $ npm install --save @fortawesome/free-brands-svg-icons
+> $ npm install --save @fortawesome/free-regular-svg-icons
+```
+#### css grid component
+```
+> $ npm install --save styled-components
+> $ npm install --save styled-css-grid
+```
+
 ![whiteboard](images/whiteboard.png)
 
-React-router & React-router-dom 
+
 
 todo
 
-icons 
+contact icons 
 email field
-description boxes
-display items
-rpg page
+description box text sizes
+rpg page grid layout
+instagram feed
+github links
 
-
-npm i --save @fortawesome/fontawesome-svg-core
-  
-  
-  npm install --save @fortawesome/free-solid-svg-icons
-  
-  
-  npm install --save @fortawesome/react-fontawesome
-
-  npm install --save @fortawesome/free-brands-svg-icons
-
-   npm install --save @fortawesome/free-regular-svg-icons
+app description
+React-router & React-router-dom 

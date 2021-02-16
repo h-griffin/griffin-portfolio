@@ -1,5 +1,4 @@
 .Display {
-
     text-align: center;
     border: thin black solid;
     background-color: white;
@@ -8,6 +7,4 @@
     padding-bottom: 3%;
     padding-top: 3%;
     margin: auto auto 2% auto;
-
-    
 } 

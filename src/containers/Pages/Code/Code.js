@@ -12,9 +12,6 @@ import slots from '../../../images/projects/slot-machine.png';
 import city from '../../../images/projects/city-explorer.png';
 import rpg from '../../../images/rpg/big-title.png';
 
-import { Route } from 'react-router-dom';
-import Rpg from '../Rpg/Rpg';
-
 import { Grid, Cell } from 'styled-css-grid';
 
 class Code extends Component{
@@ -41,7 +38,6 @@ class Code extends Component{
                                 
                                 title="Foodie Journals"
                                 >this is a paragraph about foodie journals</DisplayItem>
-  
                         </Cell>
 
                         <Cell>
@@ -52,7 +48,6 @@ class Code extends Component{
                                 
                                 title="Burger Builder"
                                 >long description about burger builder </DisplayItem>
-                            
                         </Cell>
                         
                         <Cell>
@@ -63,7 +58,6 @@ class Code extends Component{
                                 
                                 title="Slot Machine"
                                 ></DisplayItem>
-                         
                         </Cell>
                         
                         <Cell>
@@ -74,7 +68,6 @@ class Code extends Component{
                                 
                                 title="RPG Game"
                                 >click for snapshots</DisplayItem>
-                            
                         </Cell>
                         
                         <Cell>
@@ -86,10 +79,7 @@ class Code extends Component{
                                 title="City Exploerer API"
                                 >all about the City Exploerer API</DisplayItem>
                         </Cell>
-                        
                     </Grid>
-                    
-                    
                 </div>
             </Aux>
         )

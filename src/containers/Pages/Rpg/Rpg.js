@@ -24,7 +24,9 @@ class Rpg extends Component{
         return(
             <Aux>
                 <div className={classes.Rpg}>
-                    <Header title="2D Adventure game in C# & Unity">RPG Snapshots</Header>
+                    <Header 
+                        title="2D Adventure game in C# & Unity"
+                        >RPG Snapshots</Header>
                     
                     <Grid 
                         className={classes.DisplayParent}
@@ -39,72 +41,65 @@ class Rpg extends Component{
                                 text="Main menu"
                                 title="Main menu"
                                 > </DisplayItem>
+                        </Cell>
+                    
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={shop}
+                                text="Shop interface"
+
+                                title=" "
+                                >Shop interface </DisplayItem>
+                        </Cell>
                         
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={sign}
+                                text="Dialogue and quest"
+                            
+                                >Dialogue and quest </DisplayItem>
+                        </Cell>
+                        
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={shopinv}
+                                text="shop inventory"
+                            
+                                >shop inventory </DisplayItem>
+                        </Cell>
+                        
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={playerinv}
+                                text="player inventory"
+                            
+                                >player inventory </DisplayItem>
+                        </Cell>
+                        
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={stats}
+                                text="player stats"
+                            
+                                >player stats </DisplayItem>
                         </Cell>
                     
                     <Cell>
-                       <DisplayItem 
-                        link="/"
-                        icon={shop}
-                        text="Shop interface"
-                    
-                        >Shop interface </DisplayItem>
-                     
-                    </Cell>
-                    <Cell>
-                       <DisplayItem 
-                        link="/"
-                        icon={sign}
-                        text="Dialogue and quest"
-                    
-                        >Dialogue and quest </DisplayItem>
- 
-                    </Cell>
-                    
-                    <Cell>
                         <DisplayItem 
-                        link="/"
-                        icon={shopinv}
-                        text="shop inventory"
-                    
-                        >shop inventory </DisplayItem>
-                    
+                            link="/"
+                            icon={quest}
+                            text="quest items"
+                        
+                            >quest items </DisplayItem>
                     </Cell>
-                    
-                    <Cell>
-                       <DisplayItem 
-                        link="/"
-                        icon={playerinv}
-                        text="player inventory"
-                    
-                        >player inventory </DisplayItem>
-                     
-                    </Cell>
-                    
-                    <Cell>
-                        <DisplayItem 
-                        link="/"
-                        icon={stats}
-                        text="player stats"
-                    
-                        >player stats </DisplayItem>
- 
-                    </Cell>
-                   
-                   <Cell>
-                       <DisplayItem 
-                        link="/"
-                        icon={quest}
-                        text="quest items"
-                    
-                        >quest items </DisplayItem>
-                    
-                   </Cell>
-                    
                 </Grid>
-                    
-                </div>
-            </Aux>
+            </div>
+        </Aux>
         )
     }
 } 

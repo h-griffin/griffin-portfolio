@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 
 import Aux from '../../hoc/Aux/Aux';
 import classes from './Body.css';
@@ -8,8 +9,6 @@ import Certificates from '../Pages/Certificates/Certificates';
 import Art from '../Pages/Art/Art';
 import Contact from '../Pages/Contact/Contact';
 import Rpg from '../Pages/Rpg/Rpg';
-
-import { Route } from 'react-router-dom';
 
 class Body extends Component{
 
@@ -21,15 +20,15 @@ class Body extends Component{
                     
                     <Route path="/" exact component={ Home } />
 
-                    <Route path="/code" exact component={Code} />
+                    <Route path="/code" exact component={ Code } />
 
-                    <Route path="/code/rpg" exact component={Rpg} />
+                    <Route path="/code/rpg" exact component={ Rpg } />
 
-                    <Route path="/certificates" exact component={Certificates} />
+                    <Route path="/certificates" exact component={ Certificates } />
                     
-                    <Route path="/art" exact component={Art} />
+                    <Route path="/art" exact component={ Art } />
                     
-                    <Route path="/contact" exact component={Contact} />
+                    <Route path="/contact" exact component={ Contact } />
                     
                 </div>
             </Aux>

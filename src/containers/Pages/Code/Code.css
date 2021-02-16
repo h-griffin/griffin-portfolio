@@ -3,4 +3,8 @@
     text-align: center;
     /* border: thin black solid; */
 
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   } 

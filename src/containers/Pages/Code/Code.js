@@ -26,9 +26,8 @@ class Code extends Component{
                     <Header title="Programming applications and games">Projects</Header>
 
                     <div className={classes.DisplayParent}>
-                        
+
                         <DisplayItem 
-                            className={classes.div1}
                             link="/"
                             icon={journal}
                             text="foodie journals"
@@ -37,7 +36,6 @@ class Code extends Component{
                             >this is a paragraph about foodie journals</DisplayItem>
 
                         <DisplayItem 
-                            className={classes.div2}
                             link="/"
                             icon={burger}
                             text="burger builder"
@@ -46,7 +44,6 @@ class Code extends Component{
                             >long description about burger builder </DisplayItem>
                         
                         <DisplayItem 
-                            className={classes.div3}
                             link="/"
                             icon={slots}
                             text="slot machine"
@@ -55,7 +52,6 @@ class Code extends Component{
                             ></DisplayItem>
                         
                         <DisplayItem 
-                            className={classes.div4}
                             link= '/code/rpg'
                             icon={rpg}
                             text="rpg game"
@@ -64,7 +60,6 @@ class Code extends Component{
                             >description about rpg game</DisplayItem>
                         
                         <DisplayItem 
-                            className={classes.div5}
                             link="/"
                             icon={city}
                             text="city exploerer API"

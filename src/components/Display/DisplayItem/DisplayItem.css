@@ -7,8 +7,8 @@
     display: inline-block;
     /* flex-flow: row; */
     /* flex-direction: row; */
-    /* margin: auto 2% 2% auto; */
-    
+    margin: 0 2% 2% auto;
+
 
 } 
 
@@ -17,6 +17,8 @@
     width: 50%;
 
 }
+
+
 
 /* desktop */
 @media screen and (min-width: 1024px){
@@ -38,7 +40,7 @@
 @media screen and (max-width: 767px){
     .DisplayItem {
         width: 90%;
-        margin: 4% 2% 5% auto;
+        margin: 0 2% 5% auto;
     } 
         
 }
@@ -47,7 +49,7 @@
 .DisplayItem p{
 
     text-align: center;
-    border: thin black solid;
+    /* border: thin black solid; */
     font-size: small;
 
     margin: 0;

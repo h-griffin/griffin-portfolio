@@ -12,7 +12,6 @@ class Portfolio extends Component{
 
         return (
             <Aux className={classes.Portfolio}>
-                
                 <NavigationItems />
                 <Body />
             </Aux>  

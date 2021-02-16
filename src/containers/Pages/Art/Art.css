@@ -1,25 +1,9 @@
 .Art {
-
     text-align: center;
-    /* border: thin black solid; */
-
   } 
 
-.Cats {
-    width: 100%;
-} 
-
-.OctoDog {
-    width: 100%;
-    display: inline-block;
-} 
-
-.Octo {
-    width: 50%;
-    float: left;
-} 
-
-.Dogs {
-    width: 100%;
-    float: right;
-} 
+.DisplayParent{
+    margin: auto;
+    padding-top: 5%;
+    width: 90%;
+}

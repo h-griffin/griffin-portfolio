@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'styled-css-grid';
 
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Certificates.css';
@@ -21,37 +22,52 @@ class Certificates extends Component{
                 <div className={classes.Certificates}>
                     <Header title="Software Development Achievements">Certificates</Header>
                     
-                    <DisplayItem 
-                        link="/"
-                        icon={python}
-                        text="python"
-                        ></DisplayItem>
+                    <Grid 
+                        className={classes.DisplayParent}
+                        columns="repeat(auto-fit,minmax(220px,1fr))" 
+                        gap="10px"
+                        >
+                        
+                        <Cell>
+                           <DisplayItem 
+                                link="/"
+                                icon={python}
+                                text="python"
+                            ></DisplayItem> 
+                        </Cell>
+                        
+                        <Cell>
+                           <DisplayItem 
+                                link="/"
+                                icon={react}
+                                text="react"
+                            ></DisplayItem>
+                        </Cell>
 
-                    <DisplayItem 
-                        link="/"
-                        icon={react}
-                        text="react"
-                        ></DisplayItem>
-
-                    <DisplayItem 
-                        link="/"
-                        icon={c}
-                        text="csharp"
-                        ></DisplayItem>
-                    
-                    <DisplayItem 
-                        link="/"
-                        icon={jq}
-                        text="jquery"
-                        ></DisplayItem>
-                    
-                    <DisplayItem 
-                        link="/"
-                        icon={mc}
-                        text="minecraft"
-                        ></DisplayItem>
-
-                    
+                        <Cell>
+                           <DisplayItem 
+                                link="/"
+                                icon={c}
+                                text="csharp"
+                            ></DisplayItem> 
+                        </Cell>
+                        
+                        <Cell>
+                           <DisplayItem 
+                                link="/"
+                                icon={jq}
+                                text="jquery"
+                            ></DisplayItem>
+                        </Cell>
+                        
+                        <Cell>
+                           <DisplayItem 
+                                link="/"
+                                icon={mc}
+                                text="minecraft"
+                            ></DisplayItem>
+                        </Cell>
+                    </Grid>
                 </div>
             </Aux>
         )

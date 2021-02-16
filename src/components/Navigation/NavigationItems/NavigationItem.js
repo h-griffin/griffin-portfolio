@@ -15,8 +15,8 @@ const NavigationItem = (props) => (
             exact 
             activeClassName={classes.active}
             // className={ props.active ? classes.active : null}
-            >
-                <FontAwesomeIcon icon={props.image} size="lg"/>
+            
+            ><FontAwesomeIcon icon={props.image} size="lg"/>
         </NavLink>
 
     </li>

@@ -2,14 +2,35 @@
 /* mobile */
 .NavigationItems{
     margin: 4% auto 0 auto;
-    /* margin: auto; */
     padding:0;
+    width: 40%;
+    height: 100%;
     list-style: none;
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 40%;
     flex-flow: row;
-    /* flex-direction: column; */
 }
 
+/* desktop */
+@media screen and (min-width: 1024px){
+    .NavigationItems {
+        width: 30%;
+    } 
+
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .NavigationItems {
+        width: 50%;
+    } 
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+    .NavigationItems {
+        width: 60%;
+    } 
+        
+}

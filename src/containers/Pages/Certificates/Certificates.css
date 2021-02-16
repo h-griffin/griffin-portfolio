@@ -1,6 +1,9 @@
 .Certificates {
-
     text-align: center;
-    /* border: thin black solid; */
-
   } 
+
+.DisplayParent{
+    margin: auto;
+    width: 90%;
+    padding-top: 5%;
+}

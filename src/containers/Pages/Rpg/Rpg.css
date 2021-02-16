@@ -1,6 +1,9 @@
 .Rpg {
-
     text-align: center;
-    /* border: thin black solid; */
+} 
 
-  } 
+.DisplayParent{
+    padding-top: 5%;
+    width: 90%;
+    margin: auto;
+}

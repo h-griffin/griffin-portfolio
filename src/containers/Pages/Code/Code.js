@@ -73,7 +73,7 @@ class Code extends Component{
                                 text="rpg game"
                                 
                                 title="RPG Game"
-                                >description about rpg game</DisplayItem>
+                                >click for snapshots</DisplayItem>
                             
                         </Cell>
                         

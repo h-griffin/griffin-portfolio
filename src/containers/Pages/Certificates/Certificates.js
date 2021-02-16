@@ -13,6 +13,8 @@ import mc from '../../../images/certificates/Minecraft-Certificate.png';
 import python from '../../../images/certificates/Python-Certificate.jpg';
 import react from '../../../images/certificates/React-Certificate.jpg';
 
+import { Grid, Cell } from 'styled-css-grid';
+
 class Certificates extends Component{
 
     render(){
@@ -21,39 +23,57 @@ class Certificates extends Component{
                 <div className={classes.Certificates}>
                     <Header title="Software Development Achievements">Certificates</Header>
                     
-                    <div className={classes.DisplayParent}>
-                        <DisplayItem 
+                    <Grid 
+                        className={classes.DisplayParent}
+                        columns="repeat(auto-fit,minmax(220px,1fr))" 
+                        gap="10px"
+                        >
+                        
+                        <Cell>
+                           <DisplayItem 
                             link="/"
                             icon={python}
                             text="python"
-                            ></DisplayItem>
-
-                        <DisplayItem 
+                            ></DisplayItem> 
+                        </Cell>
+                        
+                        <Cell>
+                           <DisplayItem 
                             link="/"
                             icon={react}
                             text="react"
                             ></DisplayItem>
+ 
+                        </Cell>
 
-                        <DisplayItem 
+                        <Cell>
+                           <DisplayItem 
                             link="/"
                             icon={c}
                             text="csharp"
-                            ></DisplayItem>
+                            ></DisplayItem> 
+                        </Cell>
                         
-                        <DisplayItem 
+                        <Cell>
+                           <DisplayItem 
                             link="/"
                             icon={jq}
                             text="jquery"
                             ></DisplayItem>
+                         
+                        </Cell>
                         
-                        <DisplayItem 
+                        <Cell>
+                           <DisplayItem 
                             link="/"
                             icon={mc}
                             text="minecraft"
                             ></DisplayItem>
-
+ 
+                        </Cell>
+                        
                     
-                    </div>
+                    </Grid>
                     
                 </div>
             </Aux>

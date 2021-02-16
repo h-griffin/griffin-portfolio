@@ -63,10 +63,11 @@
     vertical-align: baseline;
 }
 
-/* .DisplayDescription{
-    border: thin red solid;
-    height: 100px;
-} */
+.DisplayDescription{
+    margin-top: 4%;
+    /* border: thin red solid; */
+    /* height: 100px; */
+}
 
 .DisplayImage {
 

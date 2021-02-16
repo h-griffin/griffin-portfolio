@@ -5,6 +5,12 @@
 
   } 
 
+.DisplayParent{
+    margin: auto;
+    padding-top: 5%;
+    width: 90%;
+}
+
 .Cats {
     width: 100%;
 } 

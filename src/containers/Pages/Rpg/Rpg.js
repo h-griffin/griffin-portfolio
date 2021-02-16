@@ -16,7 +16,7 @@ import playerinv from '../../../images/rpg/inventory.png';
 import stats from '../../../images/rpg/stats.png';
 
 import quest from '../../../images/rpg/quest-items.png';
-
+import { Grid, Cell } from 'styled-css-grid';
 
 class Rpg extends Component{
 
@@ -24,57 +24,84 @@ class Rpg extends Component{
         return(
             <Aux>
                 <div className={classes.Rpg}>
-                    <Header title="2D Adventure game in C# & Unity">Rpg</Header>
+                    <Header title="2D Adventure game in C# & Unity">RPG Snapshots</Header>
                     
-                    <DisplayItem 
-                        link="/"
-                        icon={title}
-                        text="Main menu"
+                    <Grid 
+                        className={classes.DisplayParent}
+                        columns="repeat(auto-fit,minmax(220px,1fr))" 
+                        gap="10px"
+                        >
+
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={title}
+                                text="Main menu"
+                                title="Main menu"
+                                > </DisplayItem>
+                        
+                        </Cell>
                     
-                        >Main menu </DisplayItem>
-                    
-                    <DisplayItem 
+                    <Cell>
+                       <DisplayItem 
                         link="/"
                         icon={shop}
                         text="Shop interface"
                     
                         >Shop interface </DisplayItem>
-                    
-                    <DisplayItem 
+                     
+                    </Cell>
+                    <Cell>
+                       <DisplayItem 
                         link="/"
                         icon={sign}
                         text="Dialogue and quest"
                     
                         >Dialogue and quest </DisplayItem>
-
-                    <DisplayItem 
+ 
+                    </Cell>
+                    
+                    <Cell>
+                        <DisplayItem 
                         link="/"
                         icon={shopinv}
                         text="shop inventory"
                     
                         >shop inventory </DisplayItem>
                     
-                    <DisplayItem 
+                    </Cell>
+                    
+                    <Cell>
+                       <DisplayItem 
                         link="/"
                         icon={playerinv}
                         text="player inventory"
                     
                         >player inventory </DisplayItem>
+                     
+                    </Cell>
                     
-                    <DisplayItem 
+                    <Cell>
+                        <DisplayItem 
                         link="/"
                         icon={stats}
                         text="player stats"
                     
                         >player stats </DisplayItem>
-
-                    <DisplayItem 
+ 
+                    </Cell>
+                   
+                   <Cell>
+                       <DisplayItem 
                         link="/"
                         icon={quest}
                         text="quest items"
                     
                         >quest items </DisplayItem>
                     
+                   </Cell>
+                    
+                </Grid>
                     
                 </div>
             </Aux>

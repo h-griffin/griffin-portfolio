@@ -6,6 +6,7 @@
   } 
 
 .DisplayParent{
+    margin: auto;
     width: 90%;
-    display: flex;
+    padding-top: 5%;
 }

@@ -11,6 +11,7 @@ import haaken from '../../../images/art/phokusme.png';
 
 import tiger from '../../../images/art/tiger.png';
 import luna from '../../../images/art/luna.png';
+import deer from '../../../images/art/deer.png';
 
 import mcgregor from '../../../images/art/mcgregor.png';
 import frank from '../../../images/art/frankiero.png';
@@ -28,131 +29,108 @@ class Art extends Component{
         return(
             <Aux>
                 <Header title="Traditional & Digital commission artwork">Commissions</Header>
+                        
                 <div className={classes.Art}>
-                        
                     <Grid 
-                        columns={"100px 1fr 100px"}
-                        rows={"45px 1fr 45px"}
-                        areas={[
-                        "bryce hunter  haaken",
-                        "cat   tiger ",
-                        "mcgregor frank  elvis",
-                        "octo dogone ",
-                        "octo dogtwo"
-                        ]}> 
+                        className={classes.DisplayParent}
+                        flow="row dense" columns={9}>
 
-                    <Cell area="bryce" >
-                       <DisplayItem 
-                        link="/"
-                        icon={toxic}
-                        text="toxic png"
-                    
-                        ></DisplayItem>  
-                    </Cell>
-                    
-                    <Cell area="hunter">
-                        <DisplayItem 
-                        link="/"
-                        icon={bryce}
-                        text="bryce png"
-                    
-                        ></DisplayItem>
-
-                    </Cell>
-                    
-                    <Cell area="haaken">
-                       <DisplayItem 
-                        link="/"
-                        icon={haaken}
-                        text="haaken png"
-                    
-                        ></DisplayItem> 
-                 
-                    </Cell>
-                    
-
-                    <Cell area="cat">
-                        <DisplayItem 
-                            style={{width: "90%"}}
-                            link="/"
-                            icon={luna}
-                            text="luna png"
-                        
+                        <Cell width={3} height={2}>
+                            <DisplayItem 
+                                link="/"
+                                icon={bryce}
+                                text="bryce png"
                             ></DisplayItem>
+                        </Cell>
                         
-                    </Cell>
-                        
-                    <Cell are="tiger">
+                        <Cell width={3} height={2}>
                         <DisplayItem 
-                            style={{width: "90%"}}
-                            link="/"
-                            icon={tiger}
-                            text="tiger png"
-                        
+                                link="/"
+                                icon={haaken}
+                                text="haaken png"
                             ></DisplayItem> 
-                        
-                    </Cell>
-                        
-                    <Cell area="mcgregor">
+                        </Cell>
+
+                        <Cell width={3} height={2} >
                         <DisplayItem 
-                        link="/"
-                        icon={mcgregor}
-                        text="mcgregor png"
-                    
-                        ></DisplayItem>
+                                link="/"
+                                icon={toxic}
+                                text="toxic png"
+                            ></DisplayItem>  
+                        </Cell>
 
-                    </Cell>
-                    
-                    <Cell area="frank">
+                        <Cell width={5} height={4} >
+                            <DisplayItem 
+                                link="/"
+                                icon={deer}
+                                text="deer png"
+                            ></DisplayItem> 
+                        </Cell>
+
+                        <Cell width={4} height={2}>
+                            <DisplayItem 
+                                link="/"
+                                icon={luna}
+                                text="luna png"
+                            ></DisplayItem>
+                        </Cell>
+                            
+                        <Cell width={4} height={2} >
+                            <DisplayItem 
+                                link="/"
+                                icon={tiger}
+                                text="tiger png"
+                            ></DisplayItem> 
+                        </Cell>
+
+                        <Cell width={3} height={2}>
+                            <DisplayItem 
+                                link="/"
+                                icon={frank}
+                                text="frank png"
+                            ></DisplayItem>
+                        </Cell>
+                            
+                        <Cell width={3} height={2}>
+                            <DisplayItem 
+                                link="/"
+                                icon={mcgregor}
+                                text="mcgregor png"
+                            ></DisplayItem>
+                        </Cell>
+
+                        <Cell width={3} height={2}>
                         <DisplayItem 
-                        link="/"
-                        icon={frank}
-                        text="frank png"
-                    
-                        ></DisplayItem>
-                    </Cell>
-                    
-
-                    <Cell area="elvis">
-                       <DisplayItem 
-                        link="/"
-                        icon={elvis}
-                        text="elvis png"
-                    
-                        ></DisplayItem>  
-                    </Cell>
-                    
-{/* 
-                    <Cell area="octo">
-                         <DisplayItem 
-                            className={classes.Octo}
-                            link="/"
-                            icon={octo}
-                            text="octo png"
+                                link="/"
+                                icon={elvis}
+                                text="elvis png"
+                            ></DisplayItem>  
+                        </Cell>
                         
-                                ></DisplayItem>
 
-                    </Cell>
-                       
-                     <Cell area="dogone">
-                         <DisplayItem 
+                        <Cell width={5} height={6}>
+                            <DisplayItem 
+                                link="/"
+                                icon={octo}
+                                text="octo png"
+                            ></DisplayItem>
+                        </Cell>
+                        
+                        <Cell width={4} height={2}>
+                            <DisplayItem 
                                 link="/"
                                 icon={dog}
                                 text="dog png"
-                            
-                                ></DisplayItem>
-
-                     </Cell>
-                            
-                    <Cell area="dogtwo">
-                        <DisplayItem 
+                            ></DisplayItem>
+                        </Cell>
+                                
+                        <Cell width={4} height={2}>
+                            <DisplayItem 
                                 link="/"
                                 icon={soldier}
                                 text="soldier png"
-                            
-                                ></DisplayItem> 
-                    </Cell>
-                             */}
+                            ></DisplayItem> 
+                        </Cell>
                     </Grid>
                 </div>
             </Aux>

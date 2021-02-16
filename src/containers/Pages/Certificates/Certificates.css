@@ -4,3 +4,8 @@
     /* border: thin black solid; */
 
   } 
+
+.DisplayParent{
+    width: 90%;
+    display: flex;
+}

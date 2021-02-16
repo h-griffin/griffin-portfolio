@@ -8,3 +8,10 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   } 
+
+  .DisplayParent{
+    /* border: thin blue solid; */
+    padding-top: 5%;
+    width: 90%;
+
+}

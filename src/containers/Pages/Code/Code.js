@@ -15,6 +15,8 @@ import rpg from '../../../images/rpg/big-title.png';
 import { Route } from 'react-router-dom';
 import Rpg from '../Rpg/Rpg';
 
+import { Grid, Cell } from 'styled-css-grid';
+
 class Code extends Component{
 
     render(){
@@ -25,48 +27,67 @@ class Code extends Component{
 
                     <Header title="Programming applications and games">Projects</Header>
 
-                    <div className={classes.DisplayParent}>
+                    <Grid 
+                        className={classes.DisplayParent}
+                        columns="repeat(auto-fit,minmax(220px,1fr))" 
+                        gap="10px"
+                        >
 
-                        <DisplayItem 
-                            link="/"
-                            icon={journal}
-                            text="foodie journals"
-                            
-                            title="Foodie Journals"
-                            >this is a paragraph about foodie journals</DisplayItem>
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={journal}
+                                text="foodie journals"
+                                
+                                title="Foodie Journals"
+                                >this is a paragraph about foodie journals</DisplayItem>
+  
+                        </Cell>
 
-                        <DisplayItem 
-                            link="/"
-                            icon={burger}
-                            text="burger builder"
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={burger}
+                                text="burger builder"
+                                
+                                title="Burger Builder"
+                                >long description about burger builder </DisplayItem>
                             
-                            title="Burger Builder"
-                            >long description about burger builder </DisplayItem>
+                        </Cell>
                         
-                        <DisplayItem 
-                            link="/"
-                            icon={slots}
-                            text="slot machine"
-                            
-                            title="Slot Machine"
-                            ></DisplayItem>
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={slots}
+                                text="slot machine"
+                                
+                                title="Slot Machine"
+                                ></DisplayItem>
+                         
+                        </Cell>
                         
-                        <DisplayItem 
-                            link= '/code/rpg'
-                            icon={rpg}
-                            text="rpg game"
+                        <Cell>
+                            <DisplayItem 
+                                link= '/code/rpg'
+                                icon={rpg}
+                                text="rpg game"
+                                
+                                title="RPG Game"
+                                >description about rpg game</DisplayItem>
                             
-                            title="RPG Game"
-                            >description about rpg game</DisplayItem>
+                        </Cell>
                         
-                        <DisplayItem 
-                            link="/"
-                            icon={city}
-                            text="city exploerer API"
-                            
-                            title="City Exploerer API"
-                            >all about the City Exploerer API</DisplayItem>
-                    </div>
+                        <Cell>
+                            <DisplayItem 
+                                link="/"
+                                icon={city}
+                                text="city exploerer API"
+                                
+                                title="City Exploerer API"
+                                >all about the City Exploerer API</DisplayItem>
+                        </Cell>
+                        
+                    </Grid>
                     
                     
                 </div>

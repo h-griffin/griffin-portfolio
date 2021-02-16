@@ -20,6 +20,7 @@ import octo from '../../../images/art/octo.png';
 import dog from '../../../images/art/dog.png';
 import soldier from '../../../images/art/soldier.png';
 
+import { Grid, Cell } from 'styled-css-grid';
 
 class Art extends Component{
 
@@ -29,28 +30,48 @@ class Art extends Component{
                 <Header title="Traditional & Digital commission artwork">Commissions</Header>
                 <div className={classes.Art}>
                         
-                    <DisplayItem 
+                    <Grid 
+                        columns={"100px 1fr 100px"}
+                        rows={"45px 1fr 45px"}
+                        areas={[
+                        "bryce hunter  haaken",
+                        "cat   tiger ",
+                        "mcgregor frank  elvis",
+                        "octo dogone ",
+                        "octo dogtwo"
+                        ]}> 
+
+                    <Cell area="bryce" >
+                       <DisplayItem 
                         link="/"
                         icon={toxic}
                         text="toxic png"
                     
-                        ></DisplayItem> 
+                        ></DisplayItem>  
+                    </Cell>
                     
-                    <DisplayItem 
+                    <Cell area="hunter">
+                        <DisplayItem 
                         link="/"
                         icon={bryce}
                         text="bryce png"
                     
                         ></DisplayItem>
 
-                    <DisplayItem 
+                    </Cell>
+                    
+                    <Cell area="haaken">
+                       <DisplayItem 
                         link="/"
                         icon={haaken}
                         text="haaken png"
                     
                         ></DisplayItem> 
-                
-                    <div className={classes.Cats}>
+                 
+                    </Cell>
+                    
+
+                    <Cell area="cat">
                         <DisplayItem 
                             style={{width: "90%"}}
                             link="/"
@@ -59,6 +80,9 @@ class Art extends Component{
                         
                             ></DisplayItem>
                         
+                    </Cell>
+                        
+                    <Cell are="tiger">
                         <DisplayItem 
                             style={{width: "90%"}}
                             link="/"
@@ -66,32 +90,41 @@ class Art extends Component{
                             text="tiger png"
                         
                             ></DisplayItem> 
-                    </div>
-                    
                         
-                    <DisplayItem 
+                    </Cell>
+                        
+                    <Cell area="mcgregor">
+                        <DisplayItem 
                         link="/"
                         icon={mcgregor}
                         text="mcgregor png"
                     
                         ></DisplayItem>
 
-                    <DisplayItem 
+                    </Cell>
+                    
+                    <Cell area="frank">
+                        <DisplayItem 
                         link="/"
                         icon={frank}
                         text="frank png"
                     
                         ></DisplayItem>
+                    </Cell>
+                    
 
-                    <DisplayItem 
+                    <Cell area="elvis">
+                       <DisplayItem 
                         link="/"
                         icon={elvis}
                         text="elvis png"
                     
-                        ></DisplayItem> 
-
-                    <div className={classes.OctoDog}>
-                        <DisplayItem 
+                        ></DisplayItem>  
+                    </Cell>
+                    
+{/* 
+                    <Cell area="octo">
+                         <DisplayItem 
                             className={classes.Octo}
                             link="/"
                             icon={octo}
@@ -99,24 +132,28 @@ class Art extends Component{
                         
                                 ></DisplayItem>
 
-                        <div className={classes.Dogs}>
-                            <DisplayItem 
+                    </Cell>
+                       
+                     <Cell area="dogone">
+                         <DisplayItem 
                                 link="/"
                                 icon={dog}
                                 text="dog png"
                             
                                 ></DisplayItem>
 
-                            <DisplayItem 
+                     </Cell>
+                            
+                    <Cell area="dogtwo">
+                        <DisplayItem 
                                 link="/"
                                 icon={soldier}
                                 text="soldier png"
                             
                                 ></DisplayItem> 
-                        </div>
-                    
-                    </div>
-                    
+                    </Cell>
+                             */}
+                    </Grid>
                 </div>
             </Aux>
         )

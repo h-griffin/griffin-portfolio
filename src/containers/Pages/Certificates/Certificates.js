@@ -21,36 +21,39 @@ class Certificates extends Component{
                 <div className={classes.Certificates}>
                     <Header title="Software Development Achievements">Certificates</Header>
                     
-                    <DisplayItem 
-                        link="/"
-                        icon={python}
-                        text="python"
-                        ></DisplayItem>
+                    <div className={classes.DisplayParent}>
+                        <DisplayItem 
+                            link="/"
+                            icon={python}
+                            text="python"
+                            ></DisplayItem>
 
-                    <DisplayItem 
-                        link="/"
-                        icon={react}
-                        text="react"
-                        ></DisplayItem>
+                        <DisplayItem 
+                            link="/"
+                            icon={react}
+                            text="react"
+                            ></DisplayItem>
 
-                    <DisplayItem 
-                        link="/"
-                        icon={c}
-                        text="csharp"
-                        ></DisplayItem>
+                        <DisplayItem 
+                            link="/"
+                            icon={c}
+                            text="csharp"
+                            ></DisplayItem>
+                        
+                        <DisplayItem 
+                            link="/"
+                            icon={jq}
+                            text="jquery"
+                            ></DisplayItem>
+                        
+                        <DisplayItem 
+                            link="/"
+                            icon={mc}
+                            text="minecraft"
+                            ></DisplayItem>
+
                     
-                    <DisplayItem 
-                        link="/"
-                        icon={jq}
-                        text="jquery"
-                        ></DisplayItem>
-                    
-                    <DisplayItem 
-                        link="/"
-                        icon={mc}
-                        text="minecraft"
-                        ></DisplayItem>
-
+                    </div>
                     
                 </div>
             </Aux>

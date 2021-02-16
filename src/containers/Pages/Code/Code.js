@@ -25,40 +25,54 @@ class Code extends Component{
 
                     <Header title="Programming applications and games">Projects</Header>
 
-                    <DisplayItem 
-                        link="/"
-                        icon={journal}
-                        text="foodie journals"
-                    
-                        >foodie journals </DisplayItem>
+                    <div className={classes.DisplayParent}>
+                        
+                        <DisplayItem 
+                            className={classes.div1}
+                            link="/"
+                            icon={journal}
+                            text="foodie journals"
+                            
+                            title="Foodie Journals"
+                            >this is a paragraph about foodie journals</DisplayItem>
 
-                    <DisplayItem 
-                        link="/"
-                        icon={burger}
-                        text="burger builder"
+                        <DisplayItem 
+                            className={classes.div2}
+                            link="/"
+                            icon={burger}
+                            text="burger builder"
+                            
+                            title="Burger Builder"
+                            >long description about burger builder </DisplayItem>
+                        
+                        <DisplayItem 
+                            className={classes.div3}
+                            link="/"
+                            icon={slots}
+                            text="slot machine"
+                            
+                            title="Slot Machine"
+                            ></DisplayItem>
+                        
+                        <DisplayItem 
+                            className={classes.div4}
+                            link= '/code/rpg'
+                            icon={rpg}
+                            text="rpg game"
+                            
+                            title="RPG Game"
+                            >description about rpg game</DisplayItem>
+                        
+                        <DisplayItem 
+                            className={classes.div5}
+                            link="/"
+                            icon={city}
+                            text="city exploerer API"
+                            
+                            title="City Exploerer API"
+                            >all about the City Exploerer API</DisplayItem>
+                    </div>
                     
-                        >burger builder </DisplayItem>
-                    
-                    <DisplayItem 
-                        link="/"
-                        icon={slots}
-                        text="slot machine"
-                    
-                        >slot machine </DisplayItem>
-                    
-                    <DisplayItem 
-                        link= '/code/rpg'
-                        icon={rpg}
-                        text="rpg game"
-                    
-                        >rpg game</DisplayItem>
-                    
-                    <DisplayItem 
-                        link="/"
-                        icon={city}
-                        text="city exploerer API"
-                    
-                        >City Exploerer API</DisplayItem>
                     
                 </div>
             </Aux>

@@ -19,11 +19,6 @@ const NavigationItem = (props) => (
                 <FontAwesomeIcon icon={props.image} size="lg"/>
         </NavLink>
 
-
-        {/* <a 
-            href={props.link} 
-            className={ props.active ? classes.active : null}
-            >{props.children}</a> */}
     </li>
 );
 

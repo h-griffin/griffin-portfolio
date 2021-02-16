@@ -17,7 +17,11 @@ class DisplayItem extends Component{
                             alt={this.props.text}
                         ></img>
                     </a>
-                    {this.props.children}
+
+                    <div className={classes.DisplayDescription}>
+                        <h3>{this.props.title}</h3>
+                        <p>{this.props.children}</p>
+                    </div>
 
                 </div>
             </Aux>

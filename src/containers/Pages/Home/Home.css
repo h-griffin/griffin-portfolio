@@ -1,3 +1,42 @@
 .Home {
     transition: opacity 0.25s ease-in-out;
+    padding-bottom: 0;
 } 
+
+.DisplayParent {
+    position: relative;
+    }
+
+.Home img {
+    width: 100%;
+    float: right;
+} 
+
+.Arrow {
+    /* box plscement to side */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: 45%;
+
+    /* arrow */
+    width: 2.75em;
+    height: 2.75em;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    line-height: 2.75em;
+    z-index: 1;
+    padding-right: 0px;
+    transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+
+}
+
+.Arrow:hover{
+    padding-right: 20px;
+    transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+}
+
+
+

@@ -18,14 +18,21 @@ import stats from '../../../images/rpg/stats.png';
 import quest from '../../../images/rpg/quest-items.png';
 import { Grid, Cell } from 'styled-css-grid';
 
+
+import { Route } from 'react-router-dom';
+
+
 class Rpg extends Component{
 
     render(){
         return(
             <Aux>
                 <div className={classes.Rpg}>
+
+                    <Route path="/code" active />
+
                     <Header 
-                        title="2D Adventure game in C# & Unity"
+                        title="2D Adventure game with C# & Unity"
                         >RPG Snapshots</Header>
                     
                     <Grid 

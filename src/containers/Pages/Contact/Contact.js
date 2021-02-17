@@ -36,10 +36,10 @@ class Contact extends Component{
                             gap="10px"
                             className={classes.DisplayParent}
                         >
-                            <Cell width={2}>
+                            <Cell width={4}>
                                 <input type="text" name="name" placeholder="Name" />
                             </Cell>
-                            <Cell width={2}>
+                            <Cell width={4}>
                                 <input type="email" name="email" placeholder="Email" />
                             </Cell>
                             <Cell width={4}>

@@ -3,7 +3,7 @@
     text-align: center;
     background-color: white;
     width: 90%;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     margin: auto auto 5% auto;
     
     font-family: 'Source Sans Pro', sans-serif;
@@ -16,7 +16,7 @@
   @media screen and (min-width: 1024px){
     .Body {
         text-align: center;
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
         background-color: white;
         width: 60%;
         margin: auto auto 5% auto ;

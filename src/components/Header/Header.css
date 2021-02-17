@@ -10,3 +10,47 @@
     position: relative;
 } 
 
+.Header h1{
+    font-weight: 400;
+    font-size: 1.4em;
+    letter-spacing: -0.015em;
+    color: #363636;
+    line-height: 1.25em;
+    margin-bottom: 0;
+} 
+
+.Title {
+    color: #aaa;
+    text-align: center;
+    width: 94%;
+    margin: auto;
+} 
+
+/* desktop */
+@media screen and (min-width: 1024px){
+    
+    .Title {
+        font-size: x-large;
+    } 
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .Title {
+        font-size: x-large;
+    } 
+}
+
+/* mobile */
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .Title {
+        font-size: large;
+    } 
+}
+
+/* tiny phone */
+@media screen and (max-width: 480px){
+    .Title {
+        font-size: large;
+    } 
+}

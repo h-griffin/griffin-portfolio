@@ -22,7 +22,22 @@ class Code extends Component{
                 <div className={classes.Code}>
                     
 
-                    <Header title="Programming applications and games">Projects</Header>
+                    <Header title="Programming applications and games">
+                        Projects
+                        </Header>
+
+                    <div align='center' style={{padding: "0 0 10px 0;"}}>
+                        <img alt="Python" width="56px" src="https://img.icons8.com/color/96/000000/python.png" />
+                        <img alt="JavaScript" width="56px" src="https://img.icons8.com/color/96/000000/javascript.png" />
+                        <img alt="React" width="56px"
+                            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+                        <img alt="C-sharp" width="56px" src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" />
+                        <img alt="Unity" width="56px" src="https://img.icons8.com/ios-filled/50/000000/unity.png" />
+                        <img alt="HTML5" width="56px"
+                            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+                        <img alt="CSS3" width="56px"
+                            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+                    </div>
 
                     <Grid 
                         className={classes.DisplayParent}
@@ -37,7 +52,7 @@ class Code extends Component{
                                 text="foodie journals"
                                 
                                 title="Foodie Journals"
-                                >this is a paragraph about foodie journals</DisplayItem>
+                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes</DisplayItem>
                         </Cell>
 
                         <Cell>
@@ -47,7 +62,7 @@ class Code extends Component{
                                 text="burger builder"
                                 
                                 title="Burger Builder"
-                                >long description about burger builder </DisplayItem>
+                                >Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders.</DisplayItem>
                         </Cell>
                         
                         <Cell>
@@ -57,17 +72,7 @@ class Code extends Component{
                                 text="slot machine"
                                 
                                 title="Slot Machine"
-                                ></DisplayItem>
-                        </Cell>
-                        
-                        <Cell>
-                            <DisplayItem 
-                                link= '/code/rpg'
-                                icon={rpg}
-                                text="rpg game"
-                                
-                                title="RPG Game"
-                                >click for snapshots</DisplayItem>
+                                >simple pure JS arcade style animated web game with bets and rewards, as well as a modifiable win ratio.</DisplayItem>
                         </Cell>
                         
                         <Cell>
@@ -77,7 +82,17 @@ class Code extends Component{
                                 text="city exploerer API"
                                 
                                 title="City Exploerer API"
-                                >all about the City Exploerer API</DisplayItem>
+                                >All visitors may search a given city or state and view results from 5 different APIs for weather, activities and much more.</DisplayItem>
+                        </Cell>
+
+                        <Cell>
+                            <DisplayItem 
+                                link= '/code/rpg'
+                                icon={rpg}
+                                text="rpg game"
+                                
+                                title="RPG Game"
+                                >click for snapshots</DisplayItem>
                         </Cell>
                     </Grid>
                 </div>

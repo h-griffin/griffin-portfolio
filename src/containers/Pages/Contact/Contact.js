@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'styled-css-grid';
 
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Contact.css';
@@ -18,36 +19,43 @@ class Contact extends Component{
             <Aux>
                 <div className={classes.Contact}>
                     
-                    <Header title="Contact Me"> 
-                        <FontAwesomeIcon icon={faGithub} size="lg"/> 
-                        <FontAwesomeIcon icon={faLinkedin} size="lg"/> 
-                        <FontAwesomeIcon icon={faSlack} size="lg"/> 
+                    <Header title="Contact Me" > 
+                        <a className={classes.Icons} href="/"><FontAwesomeIcon icon={faGithub} size="lg"/> </a>
+                        <a className={classes.Icons} href="/"><FontAwesomeIcon icon={faLinkedin} size="lg"/> </a>
+                        <a className={classes.Icons} href="" ><FontAwesomeIcon icon={faSlack} size="lg"/> </a>
+                        <br></br>
+                        <br></br>
+                         
                     </Header>
-                    
 
+                    <div className={classes.Container}>
+                        <form action="mailto:haleygriffin708@gmail.com" method="GET" target="_blank">
+                        <Grid 
 
-                    <form action="mailto:haleygriffin708@gmail.com" method="GET" target="_blank">
-                        <div>
-                            <div class="row">
-                                <div class="col-6 col-12-medium">
-                                    <input type="text" name="name" placeholder="Name" />
-                                </div>
-                                <div class="col-6 col-12-medium">
-                                    <input type="text" name="email" placeholder="Email" />
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" name="subject" placeholder="Subject" />
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="message" placeholder="Message" rows="6"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <input type="submit" value="Send Message" />
-                                </div>
-                            </div>
-                        </div>
+                            columns={4}
+                            gap="10px"
+                            className={classes.DisplayParent}
+                        >
+                            <Cell width={2}>
+                                <input type="text" name="name" placeholder="Name" />
+                            </Cell>
+                            <Cell width={2}>
+                                <input type="email" name="email" placeholder="Email" />
+                            </Cell>
+                            <Cell width={4}>
+                                <input type="text" name="subject" placeholder="Subject" />
+                            </Cell>
+                            <Cell width={4}>
+                                <textarea name="message" placeholder="Message" rows="6"></textarea>
+                            </Cell>
+                            <Cell width={4}>
+                                <input type="submit" value="Send Message" />
+                            </Cell>
+
+                        </Grid>
                     </form>
-
+                    </div>
+                    
 
                 </div>
             </Aux>

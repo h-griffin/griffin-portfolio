@@ -16,7 +16,16 @@
 
     .HomeH1 {
         text-align: left;
-        line-height: 0.3em;
+        line-height: 0.7em;
+
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: -0.015em;
+        color: #363636;
+        /* line-height: 1.25em; */
+        margin-bottom: 0;
+    
+        
     } 
     
     .Homep{
@@ -93,6 +102,14 @@
 
     .HomeH1 {        
         line-height: 0.3em;
+
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: -0.015em;
+        color: #363636;
+        line-height: 1.25em;
+        margin-bottom: 0;
+    
     } 
     
     .Homep{
@@ -160,6 +177,14 @@
 
     .HomeH1 {
         line-height: 0.3em;
+
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: -0.015em;
+        color: #363636;
+        line-height: 1.25em;
+        margin-bottom: 0;
+    
     } 
 
         
@@ -231,6 +256,14 @@
     .HomeH1 {
         font-size: xx-large;
         line-height: 0.3em;
+
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: -0.015em;
+        color: #363636;
+        line-height: 1.25em;
+        margin-bottom: 0;
+    
     } 
 
     .Homep{

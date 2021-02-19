@@ -8,3 +8,13 @@
     padding-top: 5%;
     padding-bottom: 3%;
 }
+
+.Icons{
+    text-decoration: none;
+    color: black;
+    opacity: 60%;
+    transition: opacity .25s ease-in-out;
+}
+.Icons:hover{
+    opacity: 1;
+}

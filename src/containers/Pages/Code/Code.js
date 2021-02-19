@@ -59,7 +59,8 @@ class Code extends Component{
                                 link="https://foodiejournals.com/"
                                 icon={journal}
                                 text="foodie journals"
-                                
+                                target="_blank" rel="noopener noreferrer"
+
                                 title="Foodie Journals"
                                 >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes</DisplayItem>
                         </Cell>
@@ -69,7 +70,8 @@ class Code extends Component{
                                 link="https://burger-builder-react-88892.web.app/"
                                 icon={burger}
                                 text="burger builder"
-                                
+                                target="_blank" rel="noopener noreferrer"
+
                                 title="Burger Builder"
                                 >Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders.</DisplayItem>
                         </Cell>
@@ -79,7 +81,8 @@ class Code extends Component{
                                 link="https://slot-machine-201.github.io/slot-machine/"
                                 icon={slots}
                                 text="slot machine"
-                                
+                                target="_blank" rel="noopener noreferrer"
+
                                 title="Slot Machine"
                                 >simple pure JS arcade style animated web game with bets and rewards, as well as a modifiable win ratio.</DisplayItem>
                         </Cell>
@@ -89,7 +92,8 @@ class Code extends Component{
                                 link="https://github.com/h-griffin/city-explorer-api"
                                 icon={city}
                                 text="city exploerer API"
-                                
+                                target="_blank" rel="noopener noreferrer"
+
                                 title="City Exploerer API"
                                 >All visitors may search a given city or state and view results from 5 different APIs for weather, activities and much more.</DisplayItem>
                         </Cell>
@@ -99,7 +103,8 @@ class Code extends Component{
                                 link= '/code/rpg'
                                 icon={rpg}
                                 text="rpg game"
-                                
+                                target="_self" rel="noopener noreferrer"
+
                                 title="RPG Game"
                                 >click for snapshots</DisplayItem>
                         </Cell>

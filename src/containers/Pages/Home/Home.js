@@ -6,7 +6,7 @@ import griffin from '../../../images/griffin.jpg';
 
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  } from '@fortawesome/free-solid-svg-icons';
+// import {  } from '@fortawesome/free-solid-svg-icons';
 
 class Home extends Component{
 

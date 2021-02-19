@@ -7,10 +7,11 @@ import Header from '../../../components/Header/Header';
 import Display from '../../../components/Display/Display';
 
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faSlack } from '@fortawesome/free-brands-svg-icons'
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component{
 
@@ -20,13 +21,15 @@ class Contact extends Component{
                 <div className={classes.Contact}>
                     
                     <Header title="Contact Me" > 
-                        <a className={classes.Icons} href="/"><FontAwesomeIcon icon={faGithub} size="lg"/> </a>
-                        <a className={classes.Icons} href="/"><FontAwesomeIcon icon={faLinkedin} size="lg"/> </a>
-                        <a className={classes.Icons} href="" ><FontAwesomeIcon icon={faSlack} size="lg"/> </a>
+                        <a className={classes.Icons} href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg"/> </a>
+                        <a className={classes.Icons} href="https://github.com/h-griffin" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg"/> </a>
+                        <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg"/> </a>
                         <br></br>
                         <br></br>
-                         
+                    <a href="/art" className={classes.Arrow}> 
+                            <FontAwesomeIcon icon={faChevronLeft} size="lg"/></a>
                     </Header>
+
 
                     <div className={classes.Container}>
                         <form action="mailto:haleygriffin708@gmail.com" method="GET" target="_blank">

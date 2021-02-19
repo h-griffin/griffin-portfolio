@@ -7,6 +7,8 @@ import Header from '../../../components/Header/Header';
 import Display from '../../../components/Display/Display';
 import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import c from '../../../images/certificates/CSharp-Certificate.jpg';
 import jq from '../../../images/certificates/JQuery-Certificate.jpg';
@@ -22,6 +24,10 @@ class Certificates extends Component{
                 <div className={classes.Certificates}>
                     <Header title="Software Development Achievements">Certificates</Header>
                     
+                    <div>
+                        <a className={classes.Icons} href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>
+                        h-griffin
+                    </div>
                     <Grid 
                         className={classes.DisplayParent}
                         columns="repeat(auto-fit,minmax(220px,1fr))" 

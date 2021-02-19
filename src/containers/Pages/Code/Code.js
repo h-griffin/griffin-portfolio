@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'styled-css-grid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Code.css';
@@ -12,7 +16,6 @@ import slots from '../../../images/projects/slot-machine.png';
 import city from '../../../images/projects/city-explorer.png';
 import rpg from '../../../images/rpg/big-title.png';
 
-import { Grid, Cell } from 'styled-css-grid';
 
 class Code extends Component{
 
@@ -26,7 +29,12 @@ class Code extends Component{
                         Projects
                         </Header>
 
-                    <div align='center' style={{padding: "0 0 10px 0;"}}>
+                    <div>
+                        <a className={classes.Icons} href="https://github.com/h-griffin" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg" /> </a>
+                        h-griffin
+                    </div>
+                    
+                    <div align='center' className={classes.Logos}>
                         <img alt="Python" width="56px" src="https://img.icons8.com/color/96/000000/python.png" />
                         <img alt="JavaScript" width="56px" src="https://img.icons8.com/color/96/000000/javascript.png" />
                         <img alt="React" width="56px"
@@ -38,6 +46,7 @@ class Code extends Component{
                         <img alt="CSS3" width="56px"
                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
                     </div>
+
 
                     <Grid 
                         className={classes.DisplayParent}

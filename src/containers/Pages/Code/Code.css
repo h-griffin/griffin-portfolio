@@ -3,8 +3,23 @@
 } 
 
 .DisplayParent{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
     width: 90%;
     margin: auto;
+}
+
+.Icons{
+    text-decoration: none;
+    color: black;
+    opacity: 0.60;
+    transition: opacity .25s ease-in-out;
+}
+.Icons:hover{
+    opacity: 1;
+}
+
+.Logos{
+    padding-top: 2%;
+    
 }

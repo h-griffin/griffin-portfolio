@@ -10,7 +10,7 @@ class DisplayItem extends Component{
             <Aux>
                 <div className={classes.DisplayItem}>
 
-                    <a href={this.props.link}>
+                    <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                         <img 
                             className={classes.DisplayImage}
                             src={this.props.icon}

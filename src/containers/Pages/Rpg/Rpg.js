@@ -18,8 +18,11 @@ import stats from '../../../images/rpg/stats.png';
 import quest from '../../../images/rpg/quest-items.png';
 import { Grid, Cell } from 'styled-css-grid';
 
-
 import { Route } from 'react-router-dom';
+
+
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 class Rpg extends Component{
@@ -33,8 +36,11 @@ class Rpg extends Component{
 
                     <Header 
                         title="2D Adventure game with C# & Unity"
-                        >RPG Snapshots</Header>
+                        >RPG Snapshots
                     
+                        <a href="/code" className={classes.Arrow}> 
+                                <FontAwesomeIcon icon={faChevronLeft} size="lg"/></a>
+                    </Header>
                     <Grid 
                         className={classes.DisplayParent}
                         columns="repeat(auto-fit,minmax(220px,1fr))" 
@@ -46,8 +52,8 @@ class Rpg extends Component{
                                 link="/"
                                 icon={title}
                                 text="Main menu"
-                                title="Main menu"
-                                > </DisplayItem>
+                                // title="Main menu"
+                                >Main menu</DisplayItem>
                         </Cell>
                     
                         <Cell>

@@ -10,7 +10,8 @@ class DisplayItem extends Component{
             <Aux>
                 <div className={classes.DisplayItem}>
 
-                    <a href={this.props.link} target={this.props.target} rel={this.props.rel}>
+                    <a href={this.props.link} 
+                        target={this.props.target} rel={this.props.rel}>
                         <img 
                             className={classes.DisplayImage}
                             src={this.props.icon}

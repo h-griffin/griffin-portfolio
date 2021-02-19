@@ -8,3 +8,29 @@
     width: 90%;
     margin: auto;
 }
+
+.Arrow {
+    /* box plscement to side */
+    display: block;
+    position: absolute;
+    left: -2.6%;
+    top: 34%;
+    /* margin-top: 45%; */
+
+    /* arrow */
+    width: 1.75em;
+    height: 1.75em;
+    line-height: 1.75em;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    z-index: 1;
+    padding-left: 0px;
+    transition: width .15s ease-in-out, padding-left .15s ease-in-out;
+
+}
+
+.Arrow:hover{
+    padding-left: 20px;
+    transition: width .15s ease-in-out, padding-left .15s ease-in-out;
+}

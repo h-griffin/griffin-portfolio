@@ -56,7 +56,7 @@ class Code extends Component{
 
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                link="https://foodiejournals.com/"
                                 icon={journal}
                                 text="foodie journals"
                                 
@@ -66,7 +66,7 @@ class Code extends Component{
 
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                link="https://burger-builder-react-88892.web.app/"
                                 icon={burger}
                                 text="burger builder"
                                 
@@ -76,7 +76,7 @@ class Code extends Component{
                         
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                link="https://slot-machine-201.github.io/slot-machine/"
                                 icon={slots}
                                 text="slot machine"
                                 
@@ -86,7 +86,7 @@ class Code extends Component{
                         
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                link="https://github.com/h-griffin/city-explorer-api"
                                 icon={city}
                                 text="city exploerer API"
                                 

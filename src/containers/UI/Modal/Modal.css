@@ -1,34 +1,30 @@
-.Art {
-    text-align: center;
-  } 
-
-.DisplayParent{
-    margin: auto;
-    padding-top: 5%;
-    width: 90%;
+/* .Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
 }
 
-.Icons{
-    text-decoration: none;
-    color: black;
-    opacity: 60%;
-    transition: opacity .25s ease-in-out;
-}
-.Icons:hover{
-    opacity: 1;
-}
- 
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+} */
 
-.ModalParent{
-    width: 30%;
-}
- 
-  .myImg {
-    border-radius: 5px;
-    cursor: pointer;
+.myImg {
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
     transition: 0.3s;
 
-    width: 100%;
+    width: 30%;
     max-width:300px;
   }
   
@@ -36,49 +32,44 @@
   
   /* The Modal (background) */
   .modalOpen {
-    position: absolute;
-    display: block; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 10%; /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 80%; /* Full width */
-        /* height: 100%; Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   }
 
     /* The Modal (background) */
     .modalClosed {
-        position: absolute;
-        display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            padding-top: 100px; /* Location of the box */
-            left: 0;
-            top: 0;
-            width: 80%; /* Full width */
-            /* height: 100%; Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+            display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 50%; /* Full width */
+        height: 50%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
       }
   
   /* Modal Content (Image) */
   .modalContent {
-    position: absolute;
     margin: auto;
     display: block;
-    z-index: 1;
-    width: 60%;
+    width: 80%;
     /* max-width: 700px; */
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  .caption {
-    position: absolute;
+  #caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -90,8 +81,7 @@
   }
   
   /* Add Animation - Zoom in the Modal */
-  .modalContent, .caption {
-    position: absolute;
+  .modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -125,8 +115,8 @@
     transition: 0.3s;
   }
   
-  .spanShow:hover,
-  .spanShow:focus {
+  .close:hover,
+  .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -134,7 +124,7 @@
   
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
-    .modalContent {
+    .modal-content {
       width: 100%;
     }
   }

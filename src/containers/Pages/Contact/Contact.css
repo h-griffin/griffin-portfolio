@@ -13,6 +13,32 @@
     opacity: 1;
 }
 
+.Arrow {
+    /* box plscement to side */
+    display: block;
+    position: absolute;
+    left: -2.6%;
+    top: 13%;
+    /* margin-top: 45%; */
+
+    /* arrow */
+    width: 2.50em;
+    height: 2.50em;
+    line-height: 2.50em;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    z-index: 1;
+    padding-left: 0px;
+    transition: width .15s ease-in-out, padding-left .15s ease-in-out;
+
+}
+
+.Arrow:hover{
+    padding-left: 20px;
+    transition: width .15s ease-in-out, padding-left .15s ease-in-out;
+}
+
 .Container{
     width:96%;
     margin-right: 5%;

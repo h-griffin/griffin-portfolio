@@ -7,3 +7,13 @@
     padding-top: 5%;
     width: 90%;
 }
+
+.Icons{
+    text-decoration: none;
+    color: black;
+    opacity: 60%;
+    transition: opacity .25s ease-in-out;
+}
+.Icons:hover{
+    opacity: 1;
+}

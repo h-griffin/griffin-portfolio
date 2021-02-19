@@ -6,6 +6,9 @@ import classes from './Art.css';
 import Header from '../../../components/Header/Header';
 import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
+
 import toxic from '../../../images/art/atoxicsoul.png';
 import bryce from '../../../images/art/equiptmunk.png';
 import haaken from '../../../images/art/phokusme.png';
@@ -25,7 +28,10 @@ class Art extends Component{
         return(
             <Aux>
                 <Header title="Traditional & Digital commission artwork">Commissions</Header>
-                        
+                <div>
+                    <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg" /> </a>
+                    odetocharcoal
+                </div>
                 <div className={classes.Art}>
                     <Grid 
                         className={classes.DisplayParent}

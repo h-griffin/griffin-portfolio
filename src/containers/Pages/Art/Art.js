@@ -7,6 +7,8 @@ import Header from '../../../components/Header/Header';
 import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
 
 import toxic from '../../../images/art/atoxicsoul.png';
@@ -23,6 +25,7 @@ import dog from '../../../images/art/dog.png';
 import soldier from '../../../images/art/soldier.png';
 
 import Modal from '../../UI/Modal/Modal';
+import Backdrop from '../../UI/Backdrop/Backdrop';
 
 class Art extends Component{
 
@@ -32,7 +35,6 @@ class Art extends Component{
 
         this.state = {
            isDisplayBlock: false,
-           isShowSpan: false,
            captionText: '',
            modalimgsrc: null
         }
@@ -41,9 +43,7 @@ class Art extends Component{
 //  grab image info and place in modal
     imgOnClickHandler = (event) =>{
             this.setState({
-                // isDisplayBlock: !this.state.isDisplayBlock,
                 isDisplayBlock: true,
-                isShowSpan: true,
                 captionText: event.target.alt,
                 modalimgsrc: event.target.src
             })
@@ -53,7 +53,6 @@ class Art extends Component{
     spanOnclickHandler = () =>{
     this.setState({
         isDisplayBlock: false,
-        isShowSpan: false,
         captionText: '',
         modalimgsrc: null
      })
@@ -61,28 +60,34 @@ class Art extends Component{
 
     render(){
 
-        let modalclass = this.state.isDisplayBlock ? "modalOpen" : "modalClosed";
-        let spanclass = this.state.isDisplayBlock ? "spanShow" : "spanHide";
+        // let modalclass = this.state.isDisplayBlock ? "modalOpen" : "modalClosed";
+        // let spanclass = this.state.isDisplayBlock ? "spanShow" : "spanHide";
 
+        let close = this.state.isDisplayBlock ? <span 
+                        className={classes.spanShow}
+                        onClick={((event) => this.spanOnclickHandler(event))}
+                    >&times;</span> : null
+
+        let displayImage = <img 
+                            className={classes.modalContent} 
+                            src={this.state.modalimgsrc}
+                            alt={this.state.captionText}
+                            // style={{border: this.state.isDisplayBlock ? 'solid white 2px' : null}}
+                            ></img>
 
         return(
             <Aux>
 
-                <div className={modalclass}>
+                <Backdrop show={this.state.isDisplayBlock} clicked={((event) => this.spanOnclickHandler(event))}>
+                    {close}
+                    <div className={classes.modalDisplay}>
+                        {displayImage}
+                        <div className={classes.caption}>
+                            {this.state.captionText}
+                        </div>
+                    </div>
+                </Backdrop>
 
-                <span className={classes.spanShow}
-                    onClick={((event) => this.imgOnClickHandler(event))}
-                    >&times;</span>
-
-                <img className={classes.modalContent} 
-                    src={this.state.modalimgsrc}
-                    alt={this.state.captionText}
-                    ></img>
-
-                <div className={classes.caption}>
-                    {this.state.captionText}
-                </div>
-                </div>
 
                 <Header title="Traditional & Digital commission artwork">Commissions</Header>
                 <div>
@@ -101,36 +106,23 @@ class Art extends Component{
                                 <img 
                                 className={classes.myImg} 
                                 src={bryce} 
-                                alt="bryce alt small img" 
+                                alt="Digital logo with Adobe Fresco" 
                             onClick={((event) => this.imgOnClickHandler(event))}
                             ></img>
                             </div>
 
-                            
-
-                            {/* <DisplayItem 
-                                link="/"
-                                icon={bryce}
-                                text="bryce png"
-                            ></DisplayItem> */}
                         </Cell>
 
                         <Cell width={3} height={2}>
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg} 
-                                    src={toxic} 
-                                    alt="toxic alt small img" 
+                                    src={haaken} 
+                                    alt="Digital logo with Adobe Fresco" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>  
                             </div>
-                            
-
-                            {/* <DisplayItem 
-                                    link="/"
-                                    icon={haaken}
-                                    text="haaken png"
-                            ></DisplayItem>  */}
+                        
                         </Cell>
 
                         <Cell width={3} height={2} >
@@ -138,95 +130,110 @@ class Art extends Component{
                                 <img 
                                     className={classes.myImg} 
                                     src={toxic} 
-                                    alt="toxic alt small img" 
+                                    alt="Digital logo with Adobe Fresco" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>  
                             </div>
-                            
-
-                            {/* <DisplayItem 
-                                    link="/"
-                                    icon={toxic}
-                                    text="toxic png"
-                            ></DisplayItem>   */}
                         </Cell>
 
-
-
                         <Cell width={5} height={4} >
-                            <DisplayItem 
-                                link="/"
-                                icon={deer}
-                                text="deer png"
-                            ></DisplayItem> 
+
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={deer} 
+                                    alt="6x8&quot; Gouache painting" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
 
                         <Cell width={4} height={2}>
-                            <DisplayItem 
-                                link="/"
-                                icon={luna}
-                                text="luna png"
-                            ></DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={luna} 
+                                    alt="4x6&quot; Watercolor painting" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
                             
                         <Cell width={4} height={2} >
-                            <DisplayItem 
-                                link="/"
-                                icon={tiger}
-                                text="tiger png"
-                            ></DisplayItem> 
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={tiger} 
+                                    alt="6x8&quot; Gouache painting" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
 
-
-
                         <Cell width={3} height={2}>
-                            <DisplayItem 
-                                link="/"
-                                icon={frank}
-                                text="frank png"
-                            ></DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={frank} 
+                                    alt="9x12&quot; Charcoal drawing" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
                             
                         <Cell width={3} height={2}>
-                            <DisplayItem 
-                                link="/"
-                                icon={mcgregor}
-                                text="mcgregor png"
-                            ></DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={mcgregor} 
+                                    alt="9x12&quot; Charcoal drawing" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
 
                         <Cell width={3} height={2}>
-                            <DisplayItem 
-                                link="/"
-                                icon={elvis}
-                                text="elvis png"
-                            ></DisplayItem>  
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={elvis} 
+                                    alt="9x12&quot; Charcoal drawing" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div> 
                         </Cell>
                         
-
-                        
                         <Cell width={5} height={6}>
-                            <DisplayItem 
-                                link="/"
-                                icon={octo}
-                                text="octo png"
-                            ></DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={octo} 
+                                    alt="6x8&quot; Gouache painting" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
                         
                         <Cell width={4} height={2}>
-                            <DisplayItem 
-                                link="/"
-                                icon={dog}
-                                text="dog png"
-                            ></DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={dog} 
+                                    alt="Digital drawing with Adobe Fresco" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
                                 
                         <Cell width={4} height={2}>
-                            <DisplayItem 
-                                link="/"
-                                icon={soldier}
-                                text="soldier png"
-                            ></DisplayItem> 
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg} 
+                                    src={soldier} 
+                                    alt="Digital drawing with Adobe Fresco" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                            </div>
                         </Cell>
                     </Grid>
                 </div>

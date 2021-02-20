@@ -39,7 +39,7 @@ class Certificates extends Component{
                                 link="/"
                                 icon={python}
                                 text="python"
-                            ></DisplayItem> 
+                            >Python</DisplayItem> 
                         </Cell>
                         
                         <Cell>
@@ -47,7 +47,7 @@ class Certificates extends Component{
                                 link="/"
                                 icon={react}
                                 text="react"
-                            ></DisplayItem>
+                            >React</DisplayItem>
                         </Cell>
 
                         <Cell>
@@ -55,7 +55,7 @@ class Certificates extends Component{
                                 link="/"
                                 icon={c}
                                 text="csharp"
-                            ></DisplayItem> 
+                            >C#</DisplayItem> 
                         </Cell>
                         
                         <Cell>
@@ -63,7 +63,7 @@ class Certificates extends Component{
                                 link="/"
                                 icon={jq}
                                 text="jquery"
-                            ></DisplayItem>
+                            >JQuery</DisplayItem>
                         </Cell>
                         
                         <Cell>
@@ -71,7 +71,7 @@ class Certificates extends Component{
                                 link="/"
                                 icon={mc}
                                 text="minecraft"
-                            ></DisplayItem>
+                            >Minecraft</DisplayItem>
                         </Cell>
                     </Grid>
                 </div>

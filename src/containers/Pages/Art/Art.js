@@ -98,13 +98,14 @@ class Art extends Component{
                 <div className={classes.Art}>
                     <Grid 
                         className={classes.DisplayParent}
-                        flow="row dense" 
+                        flow="row dense"
+                        gap="20px" 
                         columns={9}>
 
                         <Cell width={3} height={2} onClick={((event) => this.imgOnClickHandler(event))} >
                             <div className={classes.ModalParent}>
                                 <img 
-                                className={classes.myImg} 
+                                className={classes.myImg}
                                 src={bryce} 
                                 alt="Digital logo with Adobe Fresco" 
                             onClick={((event) => this.imgOnClickHandler(event))}

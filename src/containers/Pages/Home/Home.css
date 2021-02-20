@@ -59,8 +59,8 @@
         display: block;
         position: absolute;
         right: 0;
-        top: 40%;
-        /* margin-top: 20%; */
+        /* top: 40%; */
+        margin-top: 35%;
     
         /* arrow */
         width: 2.75em;

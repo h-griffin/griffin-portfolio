@@ -15,7 +15,7 @@ import burger from '../../../images/projects/burger-builder.png';
 import slots from '../../../images/projects/slot-machine.png';
 import city from '../../../images/projects/city-explorer.png';
 import rpg from '../../../images/rpg/big-title.png';
-
+import portfolio from '../../../images/projects/portfolio.png';
 
 class Code extends Component{
 
@@ -107,6 +107,17 @@ class Code extends Component{
 
                                 title="RPG Game"
                                 >click for snapshots</DisplayItem>
+                        </Cell>
+
+                        <Cell>
+                            <DisplayItem 
+                                link= ''
+                                icon={portfolio}
+                                text="portfolio"
+                                target="_self" rel="noopener noreferrer"
+
+                                title="portfolio"
+                                >Built with React.js, this Portfolio contains both static and stateful components, with CSS Grids and animations.</DisplayItem>
                         </Cell>
                     </Grid>
                 </div>

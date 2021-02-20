@@ -13,18 +13,30 @@
     opacity: 1;
 }
 
+.HeroImage{
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    /* width: 30%; */
+    display: inline-block;
+}
+
+.HeroContainer{
+    padding-top: 3%;
+}
+
 .Arrow {
     /* box plscement to side */
     display: block;
     position: absolute;
-    left: -2.6%;
-    top: 16%;
-    /* margin-top: 45%; */
+    /* left: 20%;
+    top: 28.5%; */
+    margin-top: 4%;
 
     /* arrow */
-    width: 1.75em;
-    height: 1.75em;
-    line-height: 1.75em;
+    width: 2.75em;
+    height: 2.75em;
+    line-height: 2.75em;
     background: #000;
     background: rgba(0, 0, 0, 0.75);
     color: #ffffff;

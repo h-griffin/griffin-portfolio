@@ -4,6 +4,7 @@ import { Grid, Cell } from 'styled-css-grid';
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './Contact.css';
 import Header from '../../../components/Header/Header';
+import cami from '../../../images/griffindog.PNG';
 import Display from '../../../components/Display/Display';
 
 
@@ -19,6 +20,12 @@ class Contact extends Component{
         return(
             <Aux>
                 <div className={classes.Contact}>
+                    <div className={classes.HeroContainer}>
+                        <a href="/art" className={classes.Arrow}> 
+                                <FontAwesomeIcon icon={faChevronLeft} size="lg"/></a>
+                        <img src={cami} className={classes.HeroImage} alt="cami"></img>
+
+                    </div>
                     
                     <Header title="Contact Me" > 
                         <a className={classes.Icons} href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg"/> </a>
@@ -26,8 +33,7 @@ class Contact extends Component{
                         <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg"/> </a>
                         <br></br>
                         <br></br>
-                    <a href="/art" className={classes.Arrow}> 
-                            <FontAwesomeIcon icon={faChevronLeft} size="lg"/></a>
+
                     </Header>
 
 

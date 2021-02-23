@@ -1,6 +1,7 @@
 .Art {
     text-align: center;
     /* transition: all .5s ease !important; */
+    overflow: hidden;
   } 
 
 .DisplayParent{
@@ -31,6 +32,7 @@
 .myImg:hover {
     opacity: 0.9;
     cursor: pointer;
+    box-shadow: 0 1px 1pc #aaa;
 }
   
   /* The Modal (background) */

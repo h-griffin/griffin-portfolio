@@ -4,7 +4,26 @@
     margin: 0 2% 2% auto;
 } 
 
-.DisplayItem p{
+.DisplayImage {
+    width: 100%;
+    display: block;
+
+    border: 1PX SOLID #eee;
+    box-shadow: 0 1px 1pc #ccc;
+    padding: 1px;
+  }
+
+.DisplayImage:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 0 1px 1pc #aaa;
+}
+
+.DisplayDescription{
+    margin-top: 4%;
+}
+
+.DisplayDescription p{
     text-align: center;
     font-size: small;
 
@@ -13,7 +32,7 @@
     border: 0;
 } 
 
-.DisplayItem h3{
+.DisplayDescription h3{
     font-size: 1.25em;
     letter-spacing: -0.015em;
     font-weight: 400;
@@ -27,16 +46,150 @@
     vertical-align: baseline;
 }
 
-.DisplayDescription{
-    margin-top: 4%;
+.DisplayDescription span {
+    display: none;
+        position: absolute;
+        background: #222222;
+        color: #ffffff;
+        top: -2.75em;
+        font-size: 0.3em;
+        height: 2.25em;
+        line-height: 2.25em;
+        left: 50%;
+        opacity: 0;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+        -ms-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out;
+        width: 5.5em;
+        margin-left: -2.75em;
 }
 
-.DisplayImage {
-    width: 100%;
+.DisplayDescription span:hover {
     display: block;
+    position: absolute;
+    background: #222222;
+    color: #ffffff;
+    /* top: -3.75em; */
+    font-size: 0.3em;
+    height: 2.25em;
+    line-height: 2.25em;
+    /* left: 50%; */
+    opacity: 0;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    width: 5.5em;
+    margin-left: -2.75em;
+}
 
-    border: 1PX SOLID #eee;
-    box-shadow: 0 1px 1pc #ccc;
-    padding: 1px;
+.Thumbnail{
+    position:relative; /*this is the key*/
+    color:#000;
+    display: flex;
   }
 
+ 
+
+/* a.info div{
+        display: none;
+    position:absolute;
+    background: #222222;
+    color: #ffffff;
+    font-size: 0.6em;
+    width: 70%;
+    height: 70%;
+    line-height: 2.25em;
+    text-align: center;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+    
+}
+
+a.info:hover div{ 
+        display:block;
+    position:absolute;
+    background: #222222;
+    color: #ffffff;
+    font-size: 0.6em;
+    width: 70%;
+    height: 70%;    
+    line-height: 2.25em;
+    text-align: center;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+    align-items: center;
+    justify-content: center;
+  } */
+
+.Live{
+    display: none;
+    /* display:block; */
+    position:absolute;
+    background: #222222;
+    color: #ffffff;
+    font-size: 0.6em;
+    width: 70%;
+    height: 70%;
+    line-height: 2.25em;
+    text-align: center;
+    padding: 5px 10px;
+    white-space: nowrap;
+    
+}
+
+.Live:hover{ 
+    display:block;
+    position:absolute;
+    background: #222222;
+    color: #ffffff;
+    font-size: 0.6em;
+    width: 70%;
+    height: 70%;    
+    line-height: 2.25em;
+    text-align: center;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+    align-items: center;
+    justify-content: center;
+
+    /* z-index: -1; */
+  }
+
+.Code{
+    border-top: 3px solid #bbb;
+
+        display: none;
+        /* display:block; */
+        position:absolute;
+        background: #222222;
+        color: #ffffff;
+        font-size: 0.6em;
+        width: 70%;
+        height: 70%;
+        line-height: 2.25em;
+        text-align: center;
+        padding: 5px 10px;
+        white-space: nowrap;
+}
+
+.Code:hover{ /*the div will display just on :hover state*/
+    display:block;
+    position:absolute;
+    background: #222222;
+    color: #ffffff;
+    font-size: 0.6em;
+    width: 70%;
+    height: 70%;    
+    line-height: 2.25em;
+    text-align: center;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+    align-items: center;
+    justify-content: center;
+  }

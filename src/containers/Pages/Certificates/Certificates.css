@@ -6,7 +6,7 @@
 .DisplayParent{
     margin: auto;
     width: 90%;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 3%;
 }
 
@@ -18,4 +18,245 @@
 }
 .Icons:hover{
     opacity: 1;
+}
+
+.myImg {
+    width: 100%;
+    display: block;
+
+    border: 1PX SOLID #eee;
+    box-shadow: 0 1px 1pc #ccc;
+    padding: 1px;
+}
+  
+.myImg:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 0 1px 1pc #aaa;
+}
+
+  /* The Modal (background) */
+  .modalDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
+  /* Add Animation - Zoom in the Modal */
+  .modalContent, .caption {
+    position: absolute;
+    animation-name: fadeInDown;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ } 
+  
+  /* The Close Button */
+  .spanShow {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+    opacity: 1;
+    z-index: 2;
+  }
+  
+  .spanShow:hover,
+  .spanShow:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .Arrow {
+    /* box plscement to side */
+    display: block;
+    position: absolute;
+    left: -2.6%;
+    top: 16%;
+    /* margin-top: 45%; */
+
+    /* arrow */
+    width: 1.75em;
+    height: 1.75em;
+    line-height: 1.75em;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    z-index: 1;
+    padding-left: 0px;
+    transition: width .15s ease-in-out, padding-left .15s ease-in-out;
+
+}
+
+.Arrow:hover{
+    padding-left: 20px;
+    transition: width .15s ease-in-out, padding-left .15s ease-in-out;
+}
+
+
+  /* Modal Content (Image) */
+  .modalContent {
+    overscroll-behavior: contain;
+    position: absolute;
+    margin: auto; 
+    z-index: 1;
+    margin-top: 10%;
+
+    object-fit: contain;
+    width: 100%;
+    height: 70%;
+}
+
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  .caption {
+    position: absolute;
+    margin: 0 auto;
+    /* display: inline-block; */
+    width: 80%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 70px;
+    bottom: 1%;
+    z-index: 1;
+
+  }
+
+
+/* desktop */
+/* @media screen and (min-width: 1024px){ */
+    .modalContent {
+        overscroll-behavior: contain;
+        position: absolute;
+        margin: auto; 
+        z-index: 1;
+        margin-top: 45%;
+    
+        object-fit: contain;
+        width: 90%;
+        height: 70%;
+    }
+    
+      /* Caption of Modal Image (Image Text) - Same Width as the Image */
+      .caption {
+        position: absolute;
+        margin: 0 auto;
+        /* display: inline-block; */
+        width: 80%;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 70px;
+        bottom: 5%;
+        z-index: 1;
+    
+      }
+/* }  */
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .modalContent {
+        overscroll-behavior: contain;
+        position: absolute;
+        margin: auto; 
+        z-index: 1;
+        
+        margin-top: 115%;
+        object-fit: contain;
+        width: 80%;
+        height: 70%;
+    }
+    
+      /* Caption of Modal Image (Image Text) - Same Width as the Image */
+      .caption {
+        position: absolute;
+        margin: 0 auto;
+        /* display: inline-block; */
+        width: 80%;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 70px;
+        bottom: 5%;
+        z-index: 1;
+    
+      }
+}
+
+/* mobile  */
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .modalContent {
+        overscroll-behavior: contain;
+        position: absolute;
+        margin: auto; 
+        z-index: 1;
+        margin-top: 95%;
+    
+        object-fit: contain;
+        width: 80%;
+        height: 70%;
+    }
+    
+      /* Caption of Modal Image (Image Text) - Same Width as the Image */
+      .caption {
+        position: absolute;
+        margin: 0 auto;
+        /* display: inline-block; */
+        width: 80%;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 70px;
+        bottom: 10%;
+        z-index: 1;
+    
+      }
+}
+
+/* tiny phone */
+@media screen and (max-width: 480px){
+    .modalContent {
+        overscroll-behavior: contain;
+        position: absolute;
+        margin: auto; 
+        z-index: 1;
+        
+        margin-top: 160%;
+        object-fit: contain;
+        width: 90%;
+        height: 70%;
+    }
+    
+      /* Caption of Modal Image (Image Text) - Same Width as the Image */
+      .caption {
+        position: absolute;
+        margin: 0 auto;
+        /* display: inline-block; */
+        width: 80%;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 70px;
+        bottom: 10%;
+        z-index: 1;
+    
+      }
 }

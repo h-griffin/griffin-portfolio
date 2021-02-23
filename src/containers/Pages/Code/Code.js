@@ -25,7 +25,9 @@ class Code extends Component{
                 <div className={classes.Code}>
                     
 
-                    <Header title="Programming applications and games">
+                    <Header 
+                        title="Programming applications and games"
+                        note="click to visit live site">
                         Projects
                         </Header>
 
@@ -61,8 +63,12 @@ class Code extends Component{
                                 text="foodie journals"
                                 target="_blank" rel="noopener noreferrer"
 
+                                hover="Live Site"
+                                lower="Source Code"
                                 title="Foodie Journals"
-                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes</DisplayItem>
+                                description="Python + React.js"
+                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes
+                                </DisplayItem>
                         </Cell>
 
                         <Cell>
@@ -72,19 +78,11 @@ class Code extends Component{
                                 text="burger builder"
                                 target="_blank" rel="noopener noreferrer"
 
+                                hover="Live Site"
+                                lower="Source Code"
                                 title="Burger Builder"
+                                description="React.js + Redux.js"
                                 >Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders.</DisplayItem>
-                        </Cell>
-                        
-                        <Cell>
-                            <DisplayItem 
-                                link="https://slot-machine-201.github.io/slot-machine/"
-                                icon={slots}
-                                text="slot machine"
-                                target="_blank" rel="noopener noreferrer"
-
-                                title="Slot Machine"
-                                >simple pure JS arcade style animated web game with bets and rewards, as well as a modifiable win ratio.</DisplayItem>
                         </Cell>
                         
                         <Cell>
@@ -94,10 +92,27 @@ class Code extends Component{
                                 text="city exploerer API"
                                 target="_blank" rel="noopener noreferrer"
 
-                                title="City Exploerer API"
+                                hover="Live Site"
+                                lower="Source Code"
+                                title="City Exploerer"
+                                description="Javascript + PostgreSQL"
                                 >All visitors may search a given city or state and view results from 5 different APIs for weather, activities and much more.</DisplayItem>
                         </Cell>
 
+                        <Cell>
+                            <DisplayItem 
+                                link="https://slot-machine-201.github.io/slot-machine/"
+                                icon={slots}
+                                text="slot machine"
+                                target="_blank" rel="noopener noreferrer"
+
+                                hover="Live Site"
+                                lower="Source Code"
+                                title="Slot Machine"
+                                description="Javascript"
+                                >simple pure JS arcade style animated web game with bets and rewards, as well as a modifiable win ratio.</DisplayItem>
+                        </Cell>
+                    
                         <Cell>
                             <DisplayItem 
                                 link= '/code/rpg'
@@ -105,19 +120,25 @@ class Code extends Component{
                                 text="rpg game"
                                 target="_self" rel="noopener noreferrer"
 
+                                hover="Live Site"
+                                lower="Source Code"
                                 title="RPG Game"
-                                >click for snapshots</DisplayItem>
+                                description="C# + Unity"
+                                >2D adventure game with animations, quests, money/shops, audio, and interactive NPCs</DisplayItem>
                         </Cell>
 
                         <Cell>
                             <DisplayItem 
-                                link= ''
+                                // link= ''
                                 icon={portfolio}
                                 text="portfolio"
                                 target="_self" rel="noopener noreferrer"
 
-                                title="portfolio"
-                                >Built with React.js, this Portfolio contains both static and stateful components, with CSS Grids and animations.</DisplayItem>
+                                hover="Live Site"
+                                lower="Source Code"
+                                title="Portfolio"
+                                description="React.js"
+                                >this Portfolio contains both static and stateful components, with CSS Grids and animations.</DisplayItem>
                         </Cell>
                     </Grid>
                 </div>

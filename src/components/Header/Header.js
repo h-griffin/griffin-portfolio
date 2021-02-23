@@ -12,6 +12,7 @@ class Header extends Component{
                 <div className={classes.Header}>
                     <h1>{this.props.children}</h1>
                     <p className={classes.Title}>{this.props.title}</p>
+                    <small>{this.props.note}</small>
                 </div>
             </Aux>
         )

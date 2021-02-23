@@ -4,7 +4,7 @@
     text-align: center;
     background-color: white;
     width: 95%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     padding-top: 3%;
     margin: auto;
     position: relative;
@@ -18,6 +18,11 @@
     line-height: 1.25em;
     margin-bottom: 0;
 } 
+
+.Header small{
+    font-size: medium;
+    color: #aaa;
+}
 
 .Title {
     color: #aaa;

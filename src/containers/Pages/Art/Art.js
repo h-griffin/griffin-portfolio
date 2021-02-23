@@ -89,7 +89,7 @@ class Art extends Component{
                 </Backdrop>
 
 
-                <Header title="Traditional & Digital commission artwork">Commissions</Header>
+                <Header title="Traditional & Digital commission artwork" note="click to expand">Commissions</Header>
                 <div>
                     <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg" /> </a>
                     odetocharcoal
@@ -105,11 +105,11 @@ class Art extends Component{
                         <Cell width={3} height={2} onClick={((event) => this.imgOnClickHandler(event))} >
                             <div className={classes.ModalParent}>
                                 <img 
-                                className={classes.myImg}
-                                src={bryce} 
-                                alt="Digital logo with Adobe Fresco" 
-                            onClick={((event) => this.imgOnClickHandler(event))}
-                            ></img>
+                                    className={classes.myImg}
+                                    src={bryce} 
+                                    alt="Digital logo with Adobe Fresco" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
                             </div>
 
                         </Cell>

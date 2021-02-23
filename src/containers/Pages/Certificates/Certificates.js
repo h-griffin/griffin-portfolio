@@ -15,63 +15,151 @@ import jq from '../../../images/certificates/JQuery-Certificate.jpg';
 import mc from '../../../images/certificates/Minecraft-Certificate.png';
 import python from '../../../images/certificates/Python-Certificate.jpg';
 import react from '../../../images/certificates/React-Certificate.jpg';
+import Backdrop from '../../UI/Backdrop/Backdrop';
 
 class Certificates extends Component{
 
+
+    constructor(){
+        super();
+
+        this.state = {
+           isDisplayBlock: false,
+           captionText: '',
+           modalimgsrc: null
+        }
+    }
+
+//  grab image info and place in modal
+    imgOnClickHandler = (event) =>{
+            this.setState({
+                isDisplayBlock: true,
+                captionText: event.target.alt,
+                modalimgsrc: event.target.src
+            })
+    }
+
+//  When the user clicks on <span> (x), close the modal
+    spanOnclickHandler = () =>{
+    this.setState({
+        isDisplayBlock: false,
+        captionText: '',
+        modalimgsrc: null
+     })
+}   
+
     render(){
+
+        // let modalclass = this.state.isDisplayBlock ? "modalOpen" : "modalClosed";
+        // let spanclass = this.state.isDisplayBlock ? "spanShow" : "spanHide";
+
+        let close = this.state.isDisplayBlock ? <span 
+                        className={classes.spanShow}
+                        onClick={((event) => this.spanOnclickHandler(event))}
+                    >&times;</span> : null
+
+        let displayImage = <img 
+                            className={classes.modalContent} 
+                            src={this.state.modalimgsrc}
+                            alt={this.state.captionText}
+                            // style={{border: this.state.isDisplayBlock ? 'solid white 2px' : null}}
+                            ></img>
+
         return(
             <Aux>
+
+                <Backdrop show={this.state.isDisplayBlock} clicked={((event) => this.spanOnclickHandler(event))}>
+                    {close}
+                    <div className={classes.modalDisplay}>
+                        {displayImage}
+                        <div className={classes.caption}>
+                            {this.state.captionText}
+                        </div>
+                    </div>
+                </Backdrop>
+
                 <div className={classes.Certificates}>
-                    <Header title="Software Development Achievements">Certificates</Header>
+                    <Header 
+                        title="Software Development Achievements"
+                        note="click to expand"
+                        >Certificates</Header>
                     
                     <div>
                         <a className={classes.Icons} href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>
                         h-griffin
                     </div>
+
                     <Grid 
                         className={classes.DisplayParent}
                         columns="repeat(auto-fit,minmax(220px,1fr))" 
-                        gap="10px"
+                        gap="20px"
                         >
                         
                         <Cell>
-                           <DisplayItem 
-                                link="/"
-                                icon={python}
-                                text="python"
-                            >Python</DisplayItem> 
+
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg}
+                                    src={python} 
+                                    alt="Advanced Software Development with Python" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                                <br></br>
+                                Python
+                            </div>
+
                         </Cell>
                         
                         <Cell>
-                           <DisplayItem 
-                                link="/"
-                                icon={react}
-                                text="react"
-                            >React</DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg}
+                                    src={react} 
+                                    alt="React the Complete Guide" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                                <br></br>
+                                React
+                            </div>
                         </Cell>
 
                         <Cell>
-                           <DisplayItem 
-                                link="/"
-                                icon={c}
-                                text="csharp"
-                            >C#</DisplayItem> 
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg}
+                                    src={c} 
+                                    alt="C# Basics for Beginners" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                                <br></br>
+                                C#
+                            </div>
                         </Cell>
                         
                         <Cell>
-                           <DisplayItem 
-                                link="/"
-                                icon={jq}
-                                text="jquery"
-                            >JQuery</DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg}
+                                    src={jq} 
+                                    alt="jQuery Tutorial Course" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                                <br></br>
+                                jQuery
+                            </div>
                         </Cell>
                         
                         <Cell>
-                           <DisplayItem 
-                                link="/"
-                                icon={mc}
-                                text="minecraft"
-                            >Minecraft</DisplayItem>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg}
+                                    src={mc} 
+                                    alt="Minecraft Hour of Code 2020" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                                <br></br>
+                                Minecraft
+                            </div>
                         </Cell>
                     </Grid>
                 </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'styled-css-grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGamepad } from '@fortawesome/free-solid-svg-icons'
 
 
 import Aux from '../../../hoc/Aux/Aux';

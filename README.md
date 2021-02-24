@@ -40,12 +40,9 @@ acivate css modules
 
 todo
 
-contact icons 
-email field
-description box text sizes
 rpg page grid layout
 instagram feed
-github links
+project modal
 
 
 app description

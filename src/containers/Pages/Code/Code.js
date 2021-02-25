@@ -126,7 +126,7 @@ class Code extends Component{
                                 lower="Source Code"
                                 title="RPG Game"
                                 description="C# + Unity"
-                                >2D adventure game with animations, quests, money/shops, audio, and interactive NPCs and objects.</DisplayItem>
+                                >2D adventure game with animations, quests, money/shops, audio, interactive NPCs and objects.</DisplayItem>
                         </Cell>
 
                         <Cell>
@@ -153,8 +153,8 @@ class Code extends Component{
                                 hover="Live Site"
                                 lower="Source Code"
                                 title="Portfolio"
-                                description="React.js"
-                                >this Portfolio contains both static and stateful components, with CSS Grids and animations. deployed on Heroku.</DisplayItem>
+                                description="React.js + Firebase"
+                                >this site contains static & stateful components, CSS Grids and animations, and uses React-router.</DisplayItem>
                         </Cell>
                     </Grid>
                 </div>

@@ -49,7 +49,7 @@ class Rpg extends Component{
 
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                // link="/"
                                 icon={title}
                                 text="Main menu"
                                 // title="Main menu"
@@ -58,7 +58,7 @@ class Rpg extends Component{
                     
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                // link="/"
                                 icon={shop}
                                 text="Shop interface"
 
@@ -68,7 +68,7 @@ class Rpg extends Component{
                         
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                // link="/"
                                 icon={sign}
                                 text="Dialogue and quest"
                             
@@ -77,7 +77,7 @@ class Rpg extends Component{
                         
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                // link="/"
                                 icon={shopinv}
                                 text="shop inventory"
                             
@@ -86,7 +86,7 @@ class Rpg extends Component{
                         
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                // link="/"
                                 icon={playerinv}
                                 text="player inventory"
                             
@@ -95,7 +95,7 @@ class Rpg extends Component{
                         
                         <Cell>
                             <DisplayItem 
-                                link="/"
+                                // link="/"
                                 icon={stats}
                                 text="player stats"
                             
@@ -104,7 +104,7 @@ class Rpg extends Component{
                     
                     <Cell>
                         <DisplayItem 
-                            link="/"
+                            // link="/"
                             icon={quest}
                             text="quest items"
                         

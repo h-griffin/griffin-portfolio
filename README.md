@@ -39,6 +39,10 @@ acivate css modules
 
 
 todo
+preserve aspect ratio photos
+mobile nav bar
+mobile modal images
+
 
 rpg page grid layout
 instagram feed

@@ -68,7 +68,7 @@ class Code extends Component{
                                 lower="Source Code"
                                 title="Foodie Journals"
                                 description="Python + React.js"
-                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes
+                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes.
                                 </DisplayItem>
                         </Cell>
 
@@ -125,7 +125,7 @@ class Code extends Component{
                                 lower="Source Code"
                                 title="RPG Game"
                                 description="C# + Unity"
-                                >2D adventure game with animations, quests, money/shops, audio, and interactive NPCs</DisplayItem>
+                                >2D adventure game with animations, quests, money/shops, audio, and interactive NPCs and objects.</DisplayItem>
                         </Cell>
 
                         <Cell>
@@ -139,7 +139,7 @@ class Code extends Component{
                                 lower="Source Code"
                                 title="Portfolio"
                                 description="React.js"
-                                >this Portfolio contains both static and stateful components, with CSS Grids and animations.</DisplayItem>
+                                >this Portfolio contains both static and stateful components, with CSS Grids and animations. deployed on Heroku.</DisplayItem>
                         </Cell>
                     </Grid>
                 </div>

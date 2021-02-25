@@ -13,7 +13,7 @@
 .Icons{
     text-decoration: none;
     color: black;
-    opacity: 60%;
+    opacity: 0.6;
     transition: opacity .25s ease-in-out;
 }
 .Icons:hover{

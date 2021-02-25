@@ -113,7 +113,7 @@
 
 
   /* Modal Content (Image) */
-  .modalContent {
+.modalContent {
     overscroll-behavior: contain;
     position: absolute;
     margin: auto; 

@@ -16,6 +16,7 @@ import burger from '../../../images/projects/burger-builder.png';
 import slots from '../../../images/projects/slot-machine.png';
 import city from '../../../images/projects/city-explorer.png';
 import rpg from '../../../images/rpg/big-title.png';
+import greed from '../../../images/projects/greed.png';
 import portfolio from '../../../images/projects/portfolio.png';
 
 class Code extends Component{
@@ -126,6 +127,20 @@ class Code extends Component{
                                 title="RPG Game"
                                 description="C# + Unity"
                                 >2D adventure game with animations, quests, money/shops, audio, and interactive NPCs and objects.</DisplayItem>
+                        </Cell>
+
+                        <Cell>
+                            <DisplayItem 
+                                link= "https://github.com/josephlee3454/game-of-greed"
+                                icon={greed}
+                                text="greed"
+                                target="_blank" rel="noopener noreferrer"
+
+                                hover="Live Site"
+                                lower="Source Code"
+                                title="Game of Greed"
+                                description="Python >_"
+                                >Command line interface with game logic, and automated testing.</DisplayItem>
                         </Cell>
 
                         <Cell>

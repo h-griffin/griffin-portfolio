@@ -22,8 +22,17 @@
 
 .Logos{
     padding-top: 5%;
+    padding-bottom: 5%;
+    white-space: nowrap;
+}
 
+.Logos img{
+    width: 56px;
 }
 
 
-
+@media screen and (max-width: 480px){
+    .Logos img{
+        width: 36px;
+    }
+}

@@ -18,8 +18,17 @@ const NavigationItem = (props) => (
             
             ><FontAwesomeIcon icon={props.image} size="lg"/>
         </NavLink>
-
+        <div className={classes.Triangle}></div>
     </li>
 );
 
 export default withRouter(NavigationItem);
+
+// if ( $(window).width() > 739) {      
+//         //Desktop scripts - hover
+//     } 
+//     else {
+//         //mobile scripts - double click
+//         $('.site-nav__list a').click(function(){
+//         $(this).click();
+//     }

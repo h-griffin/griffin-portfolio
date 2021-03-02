@@ -2,6 +2,7 @@
     text-align: center;
     display: inline-block;
     margin: 0 2% 2% auto;
+    
 } 
 
 .DisplayImage {
@@ -194,3 +195,25 @@ a.info:hover div{
     align-items: center;
     justify-content: center;
   }
+
+  @media screen and (max-width: 480px){
+    /* .DisplayImage {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+    
+        border: 1PX SOLID #eee;
+        box-shadow: 0 1px 1pc #ccc;
+        padding: 1px;
+    }  */
+    .Thumbnail{
+        width: 100%;
+        display: block;
+        object-fit: contain;
+    
+        border: 1PX SOLID #eee;
+        box-shadow: 0 1px 1pc #ccc;
+        padding: 1px;
+    }
+    
+}

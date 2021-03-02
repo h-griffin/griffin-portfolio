@@ -22,6 +22,9 @@ import portfolio from '../../../images/projects/portfolio.png';
 class Code extends Component{
 
     render(){
+
+
+
         return(
             <Aux>
                 <div className={classes.Code}>
@@ -39,15 +42,15 @@ class Code extends Component{
                     </div>
                     
                     <div align='center' className={classes.Logos}>
-                        <img alt="Python" width="56px" src="https://img.icons8.com/color/96/000000/python.png" />
-                        <img alt="JavaScript" width="56px" src="https://img.icons8.com/color/96/000000/javascript.png" />
-                        <img alt="React" width="56px"
+                        <img alt="Python" src="https://img.icons8.com/color/96/000000/python.png" />
+                        <img alt="JavaScript" src="https://img.icons8.com/color/96/000000/javascript.png" />
+                        <img alt="React"
                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-                        <img alt="C-sharp" width="56px" src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" />
-                        <img alt="Unity" width="56px" src="https://img.icons8.com/ios-filled/50/000000/unity.png" />
-                        <img alt="HTML5" width="56px"
+                        <img alt="C-sharp" src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" />
+                        <img alt="Unity" src="https://img.icons8.com/ios-filled/50/000000/unity.png" />
+                        <img alt="HTML5"
                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-                        <img alt="CSS3" width="56px"
+                        <img alt="CSS3"
                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
                     </div>
 

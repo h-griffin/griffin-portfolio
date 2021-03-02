@@ -239,7 +239,7 @@
         margin: auto; 
         z-index: 1;
         
-        margin-top: 160%;
+        margin-top: 65%;
         object-fit: contain;
         width: 90%;
         height: 70%;
@@ -255,7 +255,7 @@
         color: #ccc;
         padding: 10px 0;
         height: 70px;
-        bottom: 10%;
+        bottom: 7%;
         z-index: 1;
     
       }

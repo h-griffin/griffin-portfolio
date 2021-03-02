@@ -7,11 +7,10 @@
       "**/node_modules/**"
     ],
     "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-    "cleanUrls": true
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }

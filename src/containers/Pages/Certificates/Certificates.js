@@ -119,7 +119,7 @@ class Certificates extends Component{
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>
                                 <br></br>
-                                React
+                                React.js
                             </div>
                         </Cell>
 

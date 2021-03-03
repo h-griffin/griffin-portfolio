@@ -19,6 +19,9 @@ import rpg from '../../../images/rpg/big-title.png';
 import greed from '../../../images/projects/greed.png';
 import portfolio from '../../../images/projects/portfolio.png';
 
+import LeftArrow from '../../../components/Header/Arrows/LeftArrow/LeftArrow';
+import RightArrow from '../../../components/Header/Arrows/RightArrow/RightArrow';
+
 class Code extends Component{
 
     render(){
@@ -28,20 +31,21 @@ class Code extends Component{
         return(
             <Aux>
                 <div className={classes.Code}>
-                    
 
                     <Header 
                         title="Programming applications and games"
                         note="click to visit live site">
                         Projects
+                            <LeftArrow linkto="/"></LeftArrow>
+                            <RightArrow linkto="/certificates"></RightArrow>
                         </Header>
 
                     <div>
                         <a className={classes.Icons} href="https://github.com/h-griffin" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg" /> </a>
                         h-griffin
                     </div>
-                    
-                    <div align='center' className={classes.Logos}>
+                    <br></br>
+                    {/* <div align='center' className={classes.Logos}>
                         <img alt="Python" src="https://img.icons8.com/color/96/000000/python.png" />
                         <img alt="JavaScript" src="https://img.icons8.com/color/96/000000/javascript.png" />
                         <img alt="React"
@@ -52,7 +56,7 @@ class Code extends Component{
                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
                         <img alt="CSS3"
                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-                    </div>
+                    </div> */}
 
 
                     <Grid 

@@ -26,6 +26,9 @@ import soldier from '../../../images/art/soldier.png';
 
 import Modal from '../../UI/Modal/Modal';
 import Backdrop from '../../UI/Backdrop/Backdrop';
+import LeftArrow from '../../../components/Header/Arrows/LeftArrow/LeftArrow';
+import RightArrow from '../../../components/Header/Arrows/RightArrow/RightArrow';
+
 
 class Art extends Component{
 
@@ -89,7 +92,11 @@ class Art extends Component{
                 </Backdrop>
 
 
-                <Header title="Traditional & Digital commission artwork" note="click to expand">Commissions</Header>
+                <Header title="Traditional & Digital commission artwork" note="click to expand">
+                    Commissions
+                    <LeftArrow linkto="/certificates"></LeftArrow>
+                    <RightArrow linkto="/contact"></RightArrow>
+                </Header>
                 <div>
                     <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg" /> </a>
                     odetocharcoal

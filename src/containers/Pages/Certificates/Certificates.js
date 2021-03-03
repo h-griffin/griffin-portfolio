@@ -17,6 +17,10 @@ import python from '../../../images/certificates/Python-Certificate.jpg';
 import react from '../../../images/certificates/React-Certificate.jpg';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 
+import LeftArrow from '../../../components/Header/Arrows/LeftArrow/LeftArrow';
+import RightArrow from '../../../components/Header/Arrows/RightArrow/RightArrow';
+
+
 class Certificates extends Component{
 
 
@@ -82,7 +86,10 @@ class Certificates extends Component{
                     <Header 
                         title="Software Development Achievements"
                         note="click to expand"
-                        >Certificates</Header>
+                        >Certificates
+                            <LeftArrow linkto="/code"></LeftArrow>
+                            <RightArrow linkto="/art"></RightArrow>
+                        </Header>
                     
                     <div>
                         <a className={classes.Icons} href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>

@@ -1,0 +1,115 @@
+.Arrow {
+    /* box plscement to side */
+    display: block;
+    position: absolute;
+    /* top: 40%; */
+    margin-top: -5%;
+    right: -2.6%;
+
+    /* arrow */
+    width: 2.25em;
+    height: 2.25em;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    line-height: 2.25em;
+    z-index: 1;
+
+    padding-right: 0px;
+    transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+
+}
+
+.Arrow:hover{
+    padding-right: 20px;
+    transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .Arrow {
+        /* box plscement to side */
+        display: block;
+        position: absolute;
+        /* margin-top: -5%; */
+        right: -2.7%;
+    
+        /* arrow */
+        width: 2.25em;
+        height: 2.25em;
+        background: #000;
+        background: rgba(0, 0, 0, 0.75);
+        color: #ffffff;
+        line-height: 2.25em;
+        z-index: 1;
+        padding-right: 0px;
+        transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+    
+    }
+    
+    .Arrow:hover{
+        padding-right: 20px;
+        transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 481px) and (max-width: 767px){
+     
+    .Arrow {
+        /* box plscement to side */
+        display: block;
+        position: absolute;
+        right: -2.7%;
+        /* top: 20%;
+        margin-top: 45%; */
+    
+        /* arrow */
+        width: 2.02em;
+        height: 2.02em;
+        background: #000;
+        background: rgba(0, 0, 0, 0.75);
+        color: #ffffff;
+        line-height: 2.02em;
+        z-index: 1;
+        padding-right: 0px;
+        transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+    
+    }
+    
+    .Arrow:hover{
+        padding-right: 20px;
+        transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+    }  
+
+}
+
+/* tiny phone */
+@media screen and (max-width: 480px){
+    .Arrow {
+        /* box plscement to side */
+        display: block;
+        position: absolute;
+        right: -2.7%;
+        /* top: 20%; */
+        margin-top: -20%;
+    
+        /* arrow */
+        width: 1.45em;
+        height: 1.45em;
+        background: #000;
+        background: rgba(0, 0, 0, 0.75);
+        color: #ffffff;
+        line-height: 1.45em;
+        z-index: 1;
+        padding-right: 0px;
+        transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+    
+    }
+    
+    .Arrow:hover{
+        padding-right: 20px;
+        transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+    }
+
+}

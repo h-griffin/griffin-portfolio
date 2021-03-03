@@ -1,42 +1,16 @@
-.Contact {
-    text-align: center;
-  } 
-
-.Icons{
-    text-decoration: none;
-    margin: 0 2% 15% 2%;
-    opacity: 0.60;
-    color: black;
-    transition: opacity .25s ease-in-out;
-}
-.Icons:hover{
-    opacity: 1;
-}
-
-.HeroImage{
-    width: 100%;
-    text-decoration: none;
-    position: relative;
-    /* width: 30%; */
-    display: inline-block;
-}
-
-.HeroContainer{
-    padding-top: 3%;
-}
-
 .Arrow {
     /* box plscement to side */
     display: block;
     position: absolute;
     /* left: 20%;
     top: 28.5%; */
-    margin-top: 4%;
+    margin-top: -5%;
+    left: -2.6%;
 
     /* arrow */
-    width: 2.75em;
-    height: 2.75em;
-    line-height: 2.75em;
+    width: 2.25em;
+    height: 2.25em;
+    line-height: 2.25em;
     background: #000;
     background: rgba(0, 0, 0, 0.75);
     color: #ffffff;
@@ -51,72 +25,6 @@
     transition: width .15s ease-in-out, padding-left .15s ease-in-out;
 }
 
-.Container{
-    width:96%;
-    margin-right: 5%;
-}
-
-.DisplayParent{
-    margin: auto;
-    width: 90%;
-    padding-top: 0;
-    padding-bottom: 3%;
-  }
-
-form{
-    width: 100%;
-}
-
-input[type="submit"],
-button,
-.button {
-    transition: background-color .25s ease-in-out;
-    display: inline-block;
-    background-color: black;
-    opacity: 0.60;
-    transition: opacity .25s ease-in-out;
-    color: #ffffff;
-    border: 0;
-    cursor: pointer;
-    outline: 0;
-    padding: 0.7em 1.5em 0.7em 1.5em;
-}
-
-input[type="submit"]:hover,
-button:hover,
-.button:hover {
-    /* background-color: #222222; */
-    opacity: 1;
-}
-
-
-  
-  form input[type="text"],
-  form input[type="email"],
-  form select,
-  form textarea {
-    /* border: solid red thin; */
-    border: 0;
-    margin: auto;
-    background: #f4f4f4;
-    padding: 0.75em;
-    width: 100%;
-    transition: background-color .25s ease-in-out;
-  }
-  
-    form input[type="text"]:focus,
-    form input[type="email"]:focus,
-    form select:focus,
-    form textarea:focus {
-      background: #f8f8f8;
-    }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form select {
-    line-height: 1.35em;
-  }
-  
 
 
 /* tablet */
@@ -125,9 +33,9 @@ button:hover,
         /* box plscement to side */
         display: block;
         position: absolute;
-        left: 4.9%;
+        left: -2.7%;
         /* top: 50%; */
-        margin-top: 7%;
+        /* margin-top: 45%; */
     
         /* arrow */
         width: 2.25em;
@@ -155,9 +63,9 @@ button:hover,
         /* box plscement to side */
         display: block;
         position: absolute;
-        left: 5%;
-        /* top: 20%; */
-        margin-top: 7%;
+        right: 0;
+        /* top: 20%;
+        margin-top: 45%; */
     
         /* arrow */
         width: 2.02em;
@@ -185,17 +93,17 @@ button:hover,
         /* box plscement to side */
         display: block;
         position: absolute;
-        left: 5%;
+        right: 0;
         /* top: 20%; */
-        margin-top: 7%;
+        margin-top: -20%;
     
         /* arrow */
-        width: 1.65em;
-        height: 1.65em;
+        width: 1.45em;
+        height: 1.45em;
         background: #000;
         background: rgba(0, 0, 0, 0.75);
         color: #ffffff;
-        line-height: 1.65em;
+        line-height: 1.45em;
         z-index: 1;
         padding-left: 0px;
         transition: width .15s ease-in-out, padding-left .15s ease-in-out;

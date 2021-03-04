@@ -64,16 +64,14 @@ acivate css modules
 
 
 - todo
-    mobile preserve aspect ratio photos
-        display item container
     mobile nav bar 
         space
         hover
-    mobile modal images
-    mobile language icons space
+    mobile other screen sizes
 
     clean code
     project modal
+        live vs code
     rpg page grid layout
     instagram feed
 

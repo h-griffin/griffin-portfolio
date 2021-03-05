@@ -156,7 +156,7 @@ class Certificates extends Component{
                             </div>
                         </Cell>
                         
-                        <Cell>
+                        {/* <Cell>
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg}
@@ -167,7 +167,7 @@ class Certificates extends Component{
                                 <br></br>
                                 Minecraft
                             </div>
-                        </Cell>
+                        </Cell> */}
                     </Grid>
                 </div>
             </Aux>

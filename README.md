@@ -7,15 +7,14 @@
 
 ### Project Github [griffin-portfolio](https://github.com/h-griffin/griffin-portfolio)
 
+#### [config notes & set up](config-notes.md)
 
 <!-- ![whiteboard](src/images/whiteboard.png)
 ![wireframe](src/images/wireframe.png)
 ![final](src/images/final-art.png) -->
 
 <div display="flex">
-    <img src="src/images/whiteboard.png" alt="whiteboard" width="300">
-    <img src="src/images/wireframe.png" alt="wireframe" width="300">
-    <img src="src/images/final-art.png" alt="final" width="300">
+    <img src="src/images/whiteboard.png" alt="whiteboard" width="250">
+    <img src="src/images/wireframe.png" alt="wireframe" width="250">
+    <img src="src/images/final-art.png" alt="final" width="250">
 </div>
-
-#### [config notes & set up](config-notes.md)

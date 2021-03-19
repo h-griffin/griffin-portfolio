@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'styled-css-grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faGamepad } from '@fortawesome/free-solid-svg-icons'
+import { faGamepad, faMicrophone } from '@fortawesome/free-solid-svg-icons'
 
 
 import Aux from '../../../hoc/Aux/Aux';
@@ -72,8 +72,8 @@ class Code extends Component{
                                 text="foodie journals"
                                 target="_blank" rel="noopener noreferrer"
 
-                                hover="Live Site"
-                                lower="Source Code"
+                                live="https://foodiejournals.com/"
+                                source="https://burger-builder-react-88892.web.app/"
                                 title="Foodie Journals"
                                 description="Python + React.js"
                                 >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes.
@@ -152,10 +152,10 @@ class Code extends Component{
 
                         <Cell>
                             <DisplayItem 
-                                // link= ''
+                                link= 'https://github.com/h-griffin/griffin-portfolio'
                                 icon={portfolio}
                                 text="portfolio"
-                                target="_self" rel="noopener noreferrer"
+                                target="_blank" rel="noopener noreferrer"
 
                                 hover="Live Site"
                                 lower="Source Code"

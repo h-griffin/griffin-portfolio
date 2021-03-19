@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faHeart } from '@fortawesome/free-regular-svg-icons'
+
 
 
 import Aux from '../../../hoc/Aux/Aux';
 import classes from './DisplayItem.css';
+import { faMicrophone } from '@fortawesome/free-solid-svg-icons';
 
 class DisplayItem extends Component{
 
@@ -22,15 +25,6 @@ class DisplayItem extends Component{
                             src={this.props.icon}
                             alt={this.props.text}
                         ></img>
-{/* 
-                            <a className={classes.Live}>
-                                {this.props.hover}
-                            </a>
-                            <a className={classes.Code}>
-                                <FontAwesomeIcon icon={faGithub}/> 
-                                {this.props.lower}
-                            </a> */}
-
                     </a>
 
                     <div className={classes.DisplayDescription}>

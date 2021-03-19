@@ -34,3 +34,13 @@
     padding-left: 20px;
     transition: width .15s ease-in-out, padding-left .15s ease-in-out;
 }
+
+.Icons{
+    text-decoration: none;
+    color: black;
+    opacity: 0.60;
+    transition: opacity .25s ease-in-out;
+}
+.Icons:hover{
+    opacity: 1;
+}

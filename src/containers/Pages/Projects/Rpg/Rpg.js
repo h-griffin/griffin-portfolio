@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 
-import Aux from '../../../hoc/Aux/Aux';
+import Aux from '../../../../hoc/Aux/Aux';
 import classes from './Rpg.css';
-import Header from '../../../components/Header/Header';
-import Display from '../../../components/Display/Display';
-import DisplayItem from '../../../components/Display/DisplayItem/DisplayItem';
+import Header from '../../../../components/Header/Header';
+import Display from '../../../../components/Display/Display';
+import DisplayItem from '../../../../components/Display/DisplayItem/DisplayItem';
 
 
-import title from '../../../images/rpg/title.png';
-import shop from '../../../images/rpg/shop-map.png';
-import sign from '../../../images/rpg/countryside.png';
+import title from '../../../../images/rpg/title.png';
+import shop from '../../../../images/rpg/shop-map.png';
+import sign from '../../../../images/rpg/countryside.png';
 
-import shopinv from '../../../images/rpg/shop-interface.png';
-import playerinv from '../../../images/rpg/inventory.png';
-import stats from '../../../images/rpg/stats.png';
+import shopinv from '../../../../images/rpg/shop-interface.png';
+import playerinv from '../../../../images/rpg/inventory.png';
+import stats from '../../../../images/rpg/stats.png';
 
-import quest from '../../../images/rpg/quest-items.png';
+import quest from '../../../../images/rpg/quest-items.png';
 import { Grid, Cell } from 'styled-css-grid';
 
 import { Route } from 'react-router-dom';
@@ -23,6 +23,7 @@ import { Route } from 'react-router-dom';
 
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 class Rpg extends Component{
@@ -41,6 +42,12 @@ class Rpg extends Component{
                         <a href="/code" className={classes.Arrow}> 
                                 <FontAwesomeIcon icon={faChevronLeft} size="lg"/></a>
                     </Header>
+
+                    <div>
+                        <a className={classes.Icons} href="https://github.com/h-griffin/UdemyRPG" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg" /> </a>
+                        UdemyRPG
+                    </div>
+
                     <Grid 
                         className={classes.DisplayParent}
                         columns="repeat(auto-fit,minmax(220px,1fr))" 

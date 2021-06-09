@@ -67,7 +67,7 @@ class Code extends Component{
 
                         <Cell>
                             <DisplayItem 
-                                link="https://foodiejournals.com/"
+                                link="https://github.com/smart-not-hard/foodie-journal"
                                 icon={journal}
                                 text="foodie journals"
                                 target="_blank" rel="noopener noreferrer"

@@ -150,7 +150,7 @@ class Code extends Component{
                                 >Command line interface with game logic, and automated testing.</DisplayItem>
                         </Cell>
 
-                        <Cell>
+                        {/* <Cell>
                             <DisplayItem 
                                 link= 'https://github.com/h-griffin/griffin-portfolio'
                                 icon={portfolio}
@@ -162,7 +162,7 @@ class Code extends Component{
                                 title="Portfolio"
                                 description="React.js + Firebase"
                                 >this site contains static & stateful components, CSS Grids and animations, and uses React-router.</DisplayItem>
-                        </Cell>
+                        </Cell> */}
                     </Grid>
                 </div>
             </Aux>

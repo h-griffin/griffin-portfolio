@@ -75,3 +75,10 @@ React-router & React-router-dom
 - projects to add
 book app
 snake game
+
+
+## dark mode
+- add a dark mode theme toggle
+- add a toggle background
+- drop down for screen size that blacks out edges on larger screens
+    - desktop "mobile view" that blacks out edges and preform sin mobile mode

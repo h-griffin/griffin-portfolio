@@ -84,6 +84,9 @@ snake game
     - desktop "mobile view" that blacks out edges and preform sin mobile mode
 
 
+- toggel switch for nightmode
+- carousel background images
+- ultiple themes
+- monotone reainbow
+- screen size shape colors
 
-
-    

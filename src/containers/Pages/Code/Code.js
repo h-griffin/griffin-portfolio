@@ -76,8 +76,8 @@ class Code extends Component{
                                 hover="Live Site"
                                 lower="Source Code"
                                 title="Dating App"
-                                description="Javascript + PostgreSQL"
-                                >All visitors may search a given city or state and view results from 5 different APIs for weather, activities and much more.</DisplayItem>
+                                description="C# + TypeScript"
+                                >A dating app that connects members with likes and messaging. Users may upload photos to their gallery, and set a profile picture.</DisplayItem>
                         </Cell>
 
                         <Cell>
@@ -91,7 +91,8 @@ class Code extends Component{
                                 source="https://burger-builder-react-88892.web.app/"
                                 title="Foodie Journals"
                                 description="Python + React.js"
-                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes.
+                                >A recipe book application that displays recipes through filtered searches, after log in or
+                                sign up the user may bookmark recipes or post their own.
                                 </DisplayItem>
                         </Cell>
 
@@ -106,7 +107,7 @@ class Code extends Component{
                                 lower="Source Code"
                                 title="Burger Builder"
                                 description="React.js + Redux.js"
-                                >Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders.</DisplayItem>
+                                >A checkout application that gives a dynamic visual of your order as you build it, once signed in the user may submit and view their past orders. </DisplayItem>
                         </Cell>
                         
                         {/* <Cell>

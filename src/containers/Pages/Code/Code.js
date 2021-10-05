@@ -18,6 +18,7 @@ import city from '../../../images/projects/city-explorer.png';
 import rpg from '../../../images/rpg/big-title.png';
 import greed from '../../../images/projects/greed.png';
 import portfolio from '../../../images/projects/portfolio.png';
+import datingapp from '../../../images/projects/dating-app.png';
 
 import LeftArrow from '../../../components/Header/Arrows/LeftArrow/LeftArrow';
 import RightArrow from '../../../components/Header/Arrows/RightArrow/RightArrow';
@@ -67,6 +68,20 @@ class Code extends Component{
 
                         <Cell>
                             <DisplayItem 
+                                link="https://github.com/h-griffin/datingapp"
+                                icon={datingapp}
+                                text="dating app"
+                                target="_blank" rel="noopener noreferrer"
+
+                                hover="Live Site"
+                                lower="Source Code"
+                                title="Dating App"
+                                description="C# + TypeScript"
+                                >A dating app that connects members with likes and messaging. Users may upload photos to their gallery, and set a profile picture.</DisplayItem>
+                        </Cell>
+
+                        <Cell>
+                            <DisplayItem 
                                 link="https://github.com/smart-not-hard/foodie-journal"
                                 icon={journal}
                                 text="foodie journals"
@@ -76,7 +91,8 @@ class Code extends Component{
                                 source="https://burger-builder-react-88892.web.app/"
                                 title="Foodie Journals"
                                 description="Python + React.js"
-                                >Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes.
+                                >A recipe book application that displays recipes through filtered searches, after log in or
+                                sign up the user may bookmark recipes or post their own.
                                 </DisplayItem>
                         </Cell>
 
@@ -91,10 +107,10 @@ class Code extends Component{
                                 lower="Source Code"
                                 title="Burger Builder"
                                 description="React.js + Redux.js"
-                                >Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders.</DisplayItem>
+                                >A checkout application that gives a dynamic visual of your order as you build it, once signed in the user may submit and view their past orders. </DisplayItem>
                         </Cell>
                         
-                        <Cell>
+                        {/* <Cell>
                             <DisplayItem 
                                 link="https://github.com/h-griffin/city-explorer-api"
                                 icon={city}
@@ -106,7 +122,7 @@ class Code extends Component{
                                 title="City Exploerer"
                                 description="Javascript + PostgreSQL"
                                 >All visitors may search a given city or state and view results from 5 different APIs for weather, activities and much more.</DisplayItem>
-                        </Cell>
+                        </Cell> */}
 
                         <Cell>
                             <DisplayItem 

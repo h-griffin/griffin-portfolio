@@ -90,3 +90,4 @@ snake game
 - monotone reainbow
 - screen size shape colors
 
+- new paintings

@@ -91,3 +91,4 @@ snake game
 - screen size shape colors
 
 - new paintings
+- screenshot proj for fiver

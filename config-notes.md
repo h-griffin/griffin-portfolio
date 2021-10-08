@@ -92,3 +92,4 @@ snake game
 
 - new paintings
 - screenshot proj for fiver
+- link to fiverr

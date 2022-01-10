@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import c from '../../../images/certificates/CSharp-Certificate.jpg';
+import asp from '../../../images/certificates/ASPNETCore-Angular-Certificate.jpeg';
 import jq from '../../../images/certificates/JQuery-Certificate.jpg';
 import mc from '../../../images/certificates/Minecraft-Certificate.png';
 import python from '../../../images/certificates/Python-Certificate.jpg';
@@ -140,6 +141,19 @@ class Certificates extends Component{
                                 ></img>
                                 <br></br>
                                 C#
+                            </div>
+                        </Cell>
+
+                        <Cell>
+                            <div className={classes.ModalParent}>
+                                <img 
+                                    className={classes.myImg}
+                                    src={asp} 
+                                    alt="Build an app with ASPNET Core and Angular from scratch" 
+                                onClick={((event) => this.imgOnClickHandler(event))}
+                                ></img>
+                                <br></br>
+                                ASPNETCore & Angular
                             </div>
                         </Cell>
                         

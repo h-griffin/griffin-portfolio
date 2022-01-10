@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import { faEtsy } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component{
 
@@ -31,6 +32,7 @@ class Contact extends Component{
                         <a className={classes.Icons} href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg"/> </a>
                         <a className={classes.Icons} href="https://github.com/h-griffin" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg"/> </a>
                         <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg"/> </a>
+                        <a className={classes.Icons} href="https://www.etsy.com/shop/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEtsy} size="lg"/> </a>
                         <br></br>
                         <br></br>
 

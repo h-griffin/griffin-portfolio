@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
+import { faEtsy } from '@fortawesome/free-brands-svg-icons'
 
 import toxic from '../../../images/art/atoxicsoul.png';
 import bryce from '../../../images/art/equiptmunk.png';
@@ -101,6 +102,7 @@ class Art extends Component{
                     <a className={classes.Icons} href="https://www.instagram.com/odetocharcoal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} size="lg" /> </a>
                     odetocharcoal
                 </div>
+
                 
                 <div className={classes.Art}>
                     <Grid 
@@ -161,7 +163,7 @@ class Art extends Component{
                                 <img 
                                     className={classes.myImg} 
                                     src={luna} 
-                                    alt="4x6&quot; Watercolor painting" 
+                                    alt="6x8&quot; Watercolor painting" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>
                             </div>

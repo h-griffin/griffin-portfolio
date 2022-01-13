@@ -95,3 +95,4 @@ snake game
 - link to fiverr
 
 - link to etsy
+- integrate instagram

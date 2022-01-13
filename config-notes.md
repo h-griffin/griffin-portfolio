@@ -94,4 +94,4 @@ snake game
 - screenshot proj for fiver
 - link to fiverr
 
-
+- link to etsy

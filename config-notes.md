@@ -96,3 +96,5 @@ snake game
 
 - link to etsy
 - integrate instagram
+
+- start new proj

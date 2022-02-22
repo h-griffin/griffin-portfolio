@@ -15,15 +15,20 @@ import { faEtsy } from '@fortawesome/free-brands-svg-icons'
 import toxic from '../../../images/art/atoxicsoul.png';
 import bryce from '../../../images/art/equiptmunk.png';
 import haaken from '../../../images/art/phokusme.png';
-import tiger from '../../../images/art/tiger.png';
+// import tiger from '../../../images/art/tiger.png';
 import luna from '../../../images/art/luna.png';
-import deer from '../../../images/art/deer.png';
+// import deer from '../../../images/art/deer.png';
 import mcgregor from '../../../images/art/mcgregor.png';
 import frank from '../../../images/art/frankiero.png';
 import elvis from '../../../images/art/elvis.png';
-import octo from '../../../images/art/octo.png';
+// import octo from '../../../images/art/octo.png';
 import dog from '../../../images/art/dog.png';
-import soldier from '../../../images/art/soldier.png';
+// import soldier from '../../../images/art/soldier.png';
+
+import cami from '../../../images/art/cami.jpg';
+import sparco from '../../../images/art/sparco.jpg';
+import bronco from '../../../images/art/bronco.jpg';
+import subaru from '../../../images/art/subaru.jpg';
 
 import Modal from '../../UI/Modal/Modal';
 import Backdrop from '../../UI/Backdrop/Backdrop';
@@ -111,7 +116,7 @@ class Art extends Component{
                         gap="20px" 
                         columns={9}>
 
-                        <Cell width={3} height={2} onClick={((event) => this.imgOnClickHandler(event))} >
+                        <Cell width={3} height={2}>
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg}
@@ -151,8 +156,8 @@ class Art extends Component{
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg} 
-                                    src={deer} 
-                                    alt="6x8&quot; Gouache painting" 
+                                    src={cami} 
+                                    alt="6x8&quot; Watercolor painting" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>
                             </div>
@@ -173,8 +178,8 @@ class Art extends Component{
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg} 
-                                    src={tiger} 
-                                    alt="6x8&quot; Gouache painting" 
+                                    src={bronco} 
+                                    alt="4x6&quot; Watercolor painting" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>
                             </div>
@@ -217,8 +222,8 @@ class Art extends Component{
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg} 
-                                    src={octo} 
-                                    alt="6x8&quot; Gouache painting" 
+                                    src={sparco} 
+                                    alt="6x8&quot; Watercolor painting" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>
                             </div>
@@ -239,8 +244,8 @@ class Art extends Component{
                             <div className={classes.ModalParent}>
                                 <img 
                                     className={classes.myImg} 
-                                    src={soldier} 
-                                    alt="Digital drawing with Adobe Fresco" 
+                                    src={subaru} 
+                                    alt="6x8&quot; Watercolor painting" 
                                 onClick={((event) => this.imgOnClickHandler(event))}
                                 ></img>
                             </div>

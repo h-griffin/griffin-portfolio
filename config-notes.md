@@ -90,11 +90,13 @@ snake game
 - monotone reainbow
 - screen size shape colors
 
-- new paintings
-- screenshot proj for fiver
-- link to fiverr
 
-- link to etsy
 - integrate instagram
 
 - start new proj
+
+- complete
+    - link to fiverr
+    - link to etsy
+    - new paintings
+    - screenshot proj for fiver
